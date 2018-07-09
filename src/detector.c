@@ -1048,7 +1048,7 @@ void calc_anchors(char *datacfg, int num_of_clusters, int width, int height, int
 			pt1.x = pt1.y = 0;
 			pt2.x = centers->data.fl[j * 2] * img_size / width;
 			pt2.y = centers->data.fl[j * 2 + 1] * img_size / height;
-			cvRectangle(img, pt1, pt2, CV_RGB(255, 255, 255), 1, 8, 0);
+			/* cvRectangle(img, pt1, pt2, CV_RGB(255, 255, 255), 1, 8, 0); */
 		}
 
 		for (i = 0; i < number_of_boxes; ++i) {
@@ -1059,7 +1059,7 @@ void calc_anchors(char *datacfg, int num_of_clusters, int width, int height, int
 			int red_id = (cluster_idx * (uint64_t)123 + 55) % 255;
 			int green_id = (cluster_idx * (uint64_t)321 + 33) % 255;
 			int blue_id = (cluster_idx * (uint64_t)11 + 99) % 255;
-			cvCircle(img, pt, 1, CV_RGB(red_id, green_id, blue_id), CV_FILLED, 8, 0);
+			/* cvCircle(img, pt, 1, CV_RGB(red_id, green_id, blue_id), CV_FILLED, 8, 0); */
 			//if(pt.x > img_size || pt.y > img_size) printf("\n pt.x = %d, pt.y = %d \n", pt.x, pt.y);
 		}
 		cvShowImage("clusters", img);
