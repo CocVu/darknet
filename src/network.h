@@ -157,4 +157,3 @@ YOLODLL_API void fuse_conv_batchnorm(network net);
 #endif
 
 #endif
-
