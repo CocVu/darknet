@@ -240,25 +240,31 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
   // cv::Rect * new_rect = new cv::Rect;
 
   cv::Rect roi;
+  int edge_square_max = rect.width;
+  if(rect.width < rect.height)
+    edge_square_max = rect.height;
 
+  //DONE: square scale rect.x + max(width ...) <= 1280 and height <= 720
   roi.x = rect.x;
   roi.y = rect.y;
   roi.width = rect.width;
   roi.height = rect.height;
+  if(rect.width < edge_square_max && (rect.x + edge_square_max) <= 1280)
+    roi.height = edge_square_max;
+  else if(rect.height < edge_square_max && (rect.y + edge_square_max) <= 720)
+    roi.width= edge_square_max;
 
+  cout << roi.height << "\t" << roi.width<< endl;
+  cout << roi.x << "\t" << roi.y<< endl;
+  cout << roi.height + roi.x<< "\t" << roi.width + roi.y<< endl;
   // cv::Mat mat_crop = image_origin(rect); //crop in matrix
+
   cv::Mat mat_crop = image_origin(roi); //crop in matrix
   image image_crop = crop_mat_to_image(mat_crop);
 
 
-  // delete new_rect;
-  // new_rect = NULL;
+  // delete &roi;
   return image_crop;
-}
-
-void detect_crop_image(network * net, Blob blob_crop_motion){
-  cout << "TODO"<<endl;
-
 }
 
 int main(int argc, char *argv[]) {
@@ -408,6 +414,7 @@ int main(int argc, char *argv[]) {
         blobs.push_back(currentFrameBlob);
       }
     }
+
     else {
       matchCurrentFrameBlobsToExistingBlobs(blobs, currentFrameBlobs);
     }
@@ -420,7 +427,9 @@ int main(int argc, char *argv[]) {
 
     imgFrame2Copy = imgFrame2.clone();	// get another copy of frame 2 since we changed the previous frame 2 copy in the processing above
 
-    drawBlobInfoOnImage(blobs, imgFrame2Copy);
+    // draw red rectangle on imgFrame2Copy
+
+    // drawBlobInfoOnImage(blobs, imgFrame2Copy);
 
     // Check the rightWay
     bool blnAtLeastOneBlobCrossedTheLine = checkIfBlobsCrossedTheLineRight(blobs, intHorizontalLinePosition, carCountRight);
@@ -447,6 +456,7 @@ int main(int argc, char *argv[]) {
     //   continue;
     //DONE: convert cv::Mat frame crop to image
     image crop_image = crop_blob(imgFrame2Copy, blobs.back().currentBoundingRect);
+    cout << crop_image.w << "  "<< crop_image.h<< endl;
     image sized = resize_image(crop_image, net.w, net.h);
     // last layer in config file
     layer l = net.layers[net.n-1];
@@ -523,4 +533,3 @@ int main(int argc, char *argv[]) {
   free_network(net);
   return(0);
 }
-
