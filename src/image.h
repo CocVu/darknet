@@ -11,8 +11,8 @@
 typedef struct {
 	int w;
 	int h;
-    int c;
-    float *data;
+  int c;
+  float *data;
 } image;
 
 float get_color(int c, int x, int max);

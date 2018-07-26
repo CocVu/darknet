@@ -843,7 +843,7 @@ void fuse_conv_batchnorm(network net)
 			}
 		}
 		else {
-			//printf(" Fusion skip layer type: %d \n", l->type);
-		}
-	}
+
+    }
+  }
 }

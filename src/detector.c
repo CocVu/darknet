@@ -1134,10 +1134,8 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
     network_predict(net, X);
     //network_predict_image(&net, im); letterbox = 1;
     printf("%s: Predicted in %f seconds.\n", input, (what_time_is_it_now()-time));
-    //get_region_boxes(l, 1, 1, thresh, probs, boxes, 0, 0);
-    // if (nms) do_nms_sort_v2(boxes, probs, l.w*l.h*l.n, l.classes, nms);
-    //draw_detections(im, l.w*l.h*l.n, thresh, boxes, probs, names, alphabet, l.classes);
     int nboxes = 0;
+    /* box */
     detection *dets = get_network_boxes(&net, im.w, im.h, thresh, hier_thresh, 0, 1, &nboxes, letterbox);
     if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
     draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);

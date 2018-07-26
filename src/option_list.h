@@ -4,7 +4,7 @@
 
 #ifdef YOLODLL_EXPORTS
 #if defined(_MSC_VER)
-#define YOLODLL_API __declspec(dllexport) 
+#define YOLODLL_API __declspec(dllexport)
 #else
 #define YOLODLL_API __attribute__((visibility("default")))
 #endif
@@ -35,8 +35,8 @@ float option_find_float_quiet(list *l, char *key, float def);
 void option_unused(list *l);
 
 typedef struct {
-	int classes;
-	char **names;
+  int classes;
+  char **names;
 } metadata;
 
 YOLODLL_API metadata get_metadata(char *file);
