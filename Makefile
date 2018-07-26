@@ -1,4 +1,3 @@
-
 CUDNN=0
 CUDNN_HALF=0
 OPENCV=1
@@ -53,7 +52,7 @@ NVCC=nvcc
 OPTS=-Ofast
 LDFLAGS= -lm -pthread
 COMMON=
-CFLAGS=-Wall -Wfatal-errors -Wno-unused-result -Wno-unknown-pragmas
+CFLAGS=-Wall -Wfatal-errors -Wno-unused-result -Wno-unknown-pragmas -g
 
 ifeq ($(DEBUG), 1)
 OPTS= -O0 -g
@@ -115,7 +114,7 @@ DARKNET=$(BASIS_OBJ) darknet.o
 
 DARKNETS = $(addprefix $(OBJDIR), $(DARKNET))
 
-BLOB_OBJ= $(BASIS_OBJ) Blob.o detect_blob.o
+BLOB_OBJ= $(BASIS_OBJ) Blob.o adapter.o detect_blob.o
 
 BLOB_OBJS = $(addprefix $(OBJDIR), $(BLOB_OBJ))
 
@@ -142,6 +141,10 @@ $(EXEC): $(DARKNETS)
 
 detect_blob: $(BLOB_OBJS)
 	$(CPP) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+
+run_detec_blob:
+	make detect_blob -j4
+	./detect_blob
 
 $(OBJDIR)%.o: %.c $(DEPS)
 	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@

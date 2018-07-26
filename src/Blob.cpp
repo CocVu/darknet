@@ -1,13 +1,3 @@
-/*
-----------------------------------------------
---- Author         : Ahmet Özlü
---- Mail           : ahmetozlu93@gmail.com
---- Date           : 1st August 2017
---- Version        : 1.0
---- OpenCV Version : 2.4.10
---- Demo Video     : https://youtu.be/3uMKK28bMuY
-----------------------------------------------
-*/
 #include "Blob.h"
 
 Blob::Blob(std::vector<cv::Point> _contour) {
