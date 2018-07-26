@@ -1,5 +1,0 @@
-classes= 5
-train  = /home/nam/darknet/list/train.txt
-valid  =/home/nam/darknet/list/test.txt
-names = /home/nam/darknet/list/obj.names
-backup = /home/nam/data_khanh/backup
