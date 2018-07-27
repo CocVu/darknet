@@ -1,0 +1,2365 @@
+Total BFLOPS 3.227 
+
+ seen 32 
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000001.png: Predicted in 0.220472 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000002.png: Predicted in 0.199875 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000003.png: Predicted in 0.198805 seconds.
+bicycle: 25%
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000004.png: Predicted in 0.206970 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000005.png: Predicted in 0.210045 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000006.png: Predicted in 0.207909 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000007.png: Predicted in 0.200563 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000008.png: Predicted in 0.198144 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000009.png: Predicted in 0.199444 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000010.png: Predicted in 0.201165 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000011.png: Predicted in 0.198602 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000012.png: Predicted in 0.197912 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000013.png: Predicted in 0.203594 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000014.png: Predicted in 0.198165 seconds.
+car_s: 39%
+bicycle: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000015.png: Predicted in 0.198131 seconds.
+bicycle: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000016.png: Predicted in 0.199849 seconds.
+bicycle: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000017.png: Predicted in 0.222153 seconds.
+bicycle: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000018.png: Predicted in 0.261072 seconds.
+bicycle: 86%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000019.png: Predicted in 0.203864 seconds.
+bicycle: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000020.png: Predicted in 0.199159 seconds.
+bicycle: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000021.png: Predicted in 0.201067 seconds.
+car_s: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000022.png: Predicted in 0.272237 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000023.png: Predicted in 0.319785 seconds.
+bicycle: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000024.png: Predicted in 0.257198 seconds.
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000025.png: Predicted in 0.245795 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000026.png: Predicted in 0.229056 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000027.png: Predicted in 0.306865 seconds.
+bicycle: 68%
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000028.png: Predicted in 0.345780 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000029.png: Predicted in 0.288379 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000030.png: Predicted in 0.239030 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000031.png: Predicted in 0.225776 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000032.png: Predicted in 0.228910 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000033.png: Predicted in 0.231788 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000034.png: Predicted in 0.239333 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000035.png: Predicted in 0.238348 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000036.png: Predicted in 0.238776 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000037.png: Predicted in 0.233907 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000038.png: Predicted in 0.229311 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000039.png: Predicted in 0.233348 seconds.
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000040.png: Predicted in 0.233833 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000041.png: Predicted in 0.230071 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000042.png: Predicted in 0.245073 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000043.png: Predicted in 0.233299 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000044.png: Predicted in 0.232624 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000045.png: Predicted in 0.241814 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000046.png: Predicted in 0.253232 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000047.png: Predicted in 0.239838 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000048.png: Predicted in 0.221351 seconds.
+bicycle: 26%
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000049.png: Predicted in 0.237939 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000050.png: Predicted in 0.229912 seconds.
+bicycle: 49%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000051.png: Predicted in 0.232647 seconds.
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000052.png: Predicted in 0.236228 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000053.png: Predicted in 0.270257 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000054.png: Predicted in 0.229124 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000055.png: Predicted in 0.240896 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000056.png: Predicted in 0.242742 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000057.png: Predicted in 0.239424 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000058.png: Predicted in 0.233719 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000059.png: Predicted in 0.233106 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000060.png: Predicted in 0.232575 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000061.png: Predicted in 0.238234 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000062.png: Predicted in 0.234349 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000063.png: Predicted in 0.226728 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000064.png: Predicted in 0.245234 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000065.png: Predicted in 0.236633 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000066.png: Predicted in 0.241042 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000067.png: Predicted in 0.257642 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000068.png: Predicted in 0.236841 seconds.
+bicycle: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000069.png: Predicted in 0.235004 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000070.png: Predicted in 0.241885 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000071.png: Predicted in 0.233629 seconds.
+bicycle: 81%
+bicycle: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000072.png: Predicted in 0.237689 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000073.png: Predicted in 0.255213 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000074.png: Predicted in 0.235531 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000075.png: Predicted in 0.234020 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000076.png: Predicted in 0.230524 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000077.png: Predicted in 0.230885 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000078.png: Predicted in 0.243225 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000079.png: Predicted in 0.246634 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000080.png: Predicted in 0.228464 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000081.png: Predicted in 0.224855 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000082.png: Predicted in 0.229343 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000083.png: Predicted in 0.231978 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000084.png: Predicted in 0.222995 seconds.
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000085.png: Predicted in 0.231143 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000086.png: Predicted in 0.240015 seconds.
+bicycle: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000087.png: Predicted in 0.224326 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000088.png: Predicted in 0.246376 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000089.png: Predicted in 0.225048 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000090.png: Predicted in 0.232426 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000091.png: Predicted in 0.251134 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000092.png: Predicted in 0.234895 seconds.
+bicycle: 35%
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000093.png: Predicted in 0.241175 seconds.
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000094.png: Predicted in 0.229957 seconds.
+car_s: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000095.png: Predicted in 0.234946 seconds.
+car_s: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000096.png: Predicted in 0.231975 seconds.
+car_s: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000097.png: Predicted in 0.240630 seconds.
+car_s: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000098.png: Predicted in 0.224630 seconds.
+car_s: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000099.png: Predicted in 0.228603 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000100.png: Predicted in 0.231857 seconds.
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000101.png: Predicted in 0.238914 seconds.
+car_s: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000102.png: Predicted in 0.238435 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000103.png: Predicted in 0.236502 seconds.
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000104.png: Predicted in 0.237122 seconds.
+car_s: 29%
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000105.png: Predicted in 0.248845 seconds.
+car_s: 28%
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000106.png: Predicted in 0.223304 seconds.
+car_s: 28%
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000107.png: Predicted in 0.227385 seconds.
+car_s: 28%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000108.png: Predicted in 0.243284 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000109.png: Predicted in 0.232907 seconds.
+car_s: 25%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000110.png: Predicted in 0.235691 seconds.
+car_s: 26%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000111.png: Predicted in 0.231125 seconds.
+car_s: 26%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000112.png: Predicted in 0.240538 seconds.
+car_s: 26%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000113.png: Predicted in 0.234050 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000114.png: Predicted in 0.240755 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000115.png: Predicted in 0.286683 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000116.png: Predicted in 0.295318 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000117.png: Predicted in 0.234608 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000118.png: Predicted in 0.231331 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000119.png: Predicted in 0.238221 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000120.png: Predicted in 0.238440 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000121.png: Predicted in 0.236620 seconds.
+bicycle: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000122.png: Predicted in 0.237712 seconds.
+bicycle: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000123.png: Predicted in 0.240388 seconds.
+bicycle: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000124.png: Predicted in 0.232305 seconds.
+bicycle: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000125.png: Predicted in 0.233895 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000126.png: Predicted in 0.239352 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000127.png: Predicted in 0.240258 seconds.
+bicycle: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000128.png: Predicted in 0.233155 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000129.png: Predicted in 0.246093 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000130.png: Predicted in 0.230827 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000131.png: Predicted in 0.239991 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000132.png: Predicted in 0.240501 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000133.png: Predicted in 0.238404 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000134.png: Predicted in 0.242491 seconds.
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000135.png: Predicted in 0.236924 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000136.png: Predicted in 0.240774 seconds.
+car_s: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000137.png: Predicted in 0.263876 seconds.
+car_s: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000138.png: Predicted in 0.224154 seconds.
+car_s: 63%
+motorbike: 33%
+walker: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000139.png: Predicted in 0.244486 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000140.png: Predicted in 0.234268 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000141.png: Predicted in 0.255677 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000142.png: Predicted in 0.244427 seconds.
+car_s: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000143.png: Predicted in 0.267902 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000144.png: Predicted in 0.266017 seconds.
+car_s: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000145.png: Predicted in 0.253751 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000146.png: Predicted in 0.248486 seconds.
+car_l: 32%
+car_s: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000147.png: Predicted in 0.273218 seconds.
+car_s: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000148.png: Predicted in 0.267349 seconds.
+car_s: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000149.png: Predicted in 0.243152 seconds.
+car_s: 93%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000150.png: Predicted in 0.247616 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000151.png: Predicted in 0.267485 seconds.
+bicycle: 30%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000152.png: Predicted in 0.256645 seconds.
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000153.png: Predicted in 0.313960 seconds.
+car_s: 29%
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000154.png: Predicted in 0.264443 seconds.
+car_s: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000155.png: Predicted in 0.288356 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000156.png: Predicted in 0.285897 seconds.
+car_s: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000157.png: Predicted in 0.284080 seconds.
+car_s: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000158.png: Predicted in 0.262465 seconds.
+car_s: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000159.png: Predicted in 0.265916 seconds.
+car_s: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000160.png: Predicted in 0.260245 seconds.
+car_s: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000161.png: Predicted in 0.277834 seconds.
+car_l: 36%
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000162.png: Predicted in 0.264969 seconds.
+car_s: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000163.png: Predicted in 0.261105 seconds.
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000164.png: Predicted in 0.276476 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000165.png: Predicted in 0.274850 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000166.png: Predicted in 0.271961 seconds.
+car_s: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000167.png: Predicted in 0.269936 seconds.
+car_s: 27%
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000168.png: Predicted in 0.255552 seconds.
+car_s: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000169.png: Predicted in 0.302105 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000170.png: Predicted in 0.276800 seconds.
+car_s: 46%
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000171.png: Predicted in 0.289171 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000172.png: Predicted in 0.258646 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000173.png: Predicted in 0.276561 seconds.
+car_s: 57%
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000174.png: Predicted in 0.300921 seconds.
+car_s: 51%
+car_s: 85%
+walker: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000175.png: Predicted in 0.328014 seconds.
+car_s: 59%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000176.png: Predicted in 0.274147 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000177.png: Predicted in 0.284273 seconds.
+car_s: 76%
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000178.png: Predicted in 0.267175 seconds.
+car_s: 69%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000179.png: Predicted in 0.258159 seconds.
+car_s: 96%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000180.png: Predicted in 0.254468 seconds.
+car_s: 84%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000181.png: Predicted in 0.245285 seconds.
+car_s: 97%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000182.png: Predicted in 0.255049 seconds.
+car_s: 91%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000183.png: Predicted in 0.250617 seconds.
+car_s: 95%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000184.png: Predicted in 0.266124 seconds.
+car_s: 93%
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000185.png: Predicted in 0.260952 seconds.
+car_s: 98%
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000186.png: Predicted in 0.256332 seconds.
+car_s: 97%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000187.png: Predicted in 0.259646 seconds.
+car_s: 99%
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000188.png: Predicted in 0.262919 seconds.
+car_s: 97%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000189.png: Predicted in 0.243136 seconds.
+car_s: 98%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000190.png: Predicted in 0.260963 seconds.
+car_s: 97%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000191.png: Predicted in 0.245121 seconds.
+car_s: 95%
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000192.png: Predicted in 0.253695 seconds.
+car_s: 98%
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000193.png: Predicted in 0.239694 seconds.
+car_s: 98%
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000194.png: Predicted in 0.252488 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000195.png: Predicted in 0.251379 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000196.png: Predicted in 0.264334 seconds.
+bicycle: 52%
+car_s: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000197.png: Predicted in 0.248079 seconds.
+bicycle: 36%
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000198.png: Predicted in 0.249442 seconds.
+car_s: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000199.png: Predicted in 0.246990 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000200.png: Predicted in 0.251038 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000201.png: Predicted in 0.277423 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000202.png: Predicted in 0.247823 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000203.png: Predicted in 0.249769 seconds.
+car_s: 44%
+bicycle: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000204.png: Predicted in 0.255452 seconds.
+car_s: 41%
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000205.png: Predicted in 0.264940 seconds.
+car_s: 38%
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000206.png: Predicted in 0.253059 seconds.
+bicycle: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000207.png: Predicted in 0.238938 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000208.png: Predicted in 0.251835 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000209.png: Predicted in 0.248270 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000210.png: Predicted in 0.255778 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000211.png: Predicted in 0.293157 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000212.png: Predicted in 0.350728 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000213.png: Predicted in 0.341221 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000214.png: Predicted in 0.347853 seconds.
+car_s: 100%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000215.png: Predicted in 0.275617 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000216.png: Predicted in 0.255723 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000217.png: Predicted in 0.258505 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000218.png: Predicted in 0.254354 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000219.png: Predicted in 0.247756 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000220.png: Predicted in 0.247727 seconds.
+bicycle: 85%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000221.png: Predicted in 0.253464 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000222.png: Predicted in 0.264779 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000223.png: Predicted in 0.262862 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000224.png: Predicted in 0.251424 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000225.png: Predicted in 0.250793 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000226.png: Predicted in 0.281380 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000227.png: Predicted in 0.260025 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000228.png: Predicted in 0.271753 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000229.png: Predicted in 0.239336 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000230.png: Predicted in 0.255797 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000231.png: Predicted in 0.236568 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000232.png: Predicted in 0.262697 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000233.png: Predicted in 0.257104 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000234.png: Predicted in 0.255996 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000235.png: Predicted in 0.253361 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000236.png: Predicted in 0.259678 seconds.
+bicycle: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000237.png: Predicted in 0.262049 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000238.png: Predicted in 0.264727 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000239.png: Predicted in 0.246293 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000240.png: Predicted in 0.248149 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000241.png: Predicted in 0.247382 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000242.png: Predicted in 0.246469 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000243.png: Predicted in 0.226532 seconds.
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000244.png: Predicted in 0.251675 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000245.png: Predicted in 0.250295 seconds.
+bicycle: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000246.png: Predicted in 0.257204 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000247.png: Predicted in 0.265415 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000248.png: Predicted in 0.257261 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000249.png: Predicted in 0.247004 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000250.png: Predicted in 0.254564 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000251.png: Predicted in 0.242025 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000252.png: Predicted in 0.254149 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000253.png: Predicted in 0.246949 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000254.png: Predicted in 0.251994 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000255.png: Predicted in 0.256888 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000256.png: Predicted in 0.267564 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000257.png: Predicted in 0.259507 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000258.png: Predicted in 0.251373 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000259.png: Predicted in 0.244772 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000260.png: Predicted in 0.250414 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000261.png: Predicted in 0.249664 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000262.png: Predicted in 0.247101 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000263.png: Predicted in 0.246811 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000264.png: Predicted in 0.255900 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000265.png: Predicted in 0.245070 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000266.png: Predicted in 0.247045 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000267.png: Predicted in 0.249862 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000268.png: Predicted in 0.254189 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000269.png: Predicted in 0.245730 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000270.png: Predicted in 0.248482 seconds.
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000271.png: Predicted in 0.245597 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000272.png: Predicted in 0.253993 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000273.png: Predicted in 0.263257 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000274.png: Predicted in 0.247000 seconds.
+bicycle: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000275.png: Predicted in 0.251603 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000276.png: Predicted in 0.260533 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000277.png: Predicted in 0.248339 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000278.png: Predicted in 0.269189 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000279.png: Predicted in 0.243157 seconds.
+bicycle: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000280.png: Predicted in 0.268826 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000281.png: Predicted in 0.242784 seconds.
+bicycle: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000282.png: Predicted in 0.259957 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000283.png: Predicted in 0.259641 seconds.
+bicycle: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000284.png: Predicted in 0.255843 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000285.png: Predicted in 0.274903 seconds.
+bicycle: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000286.png: Predicted in 0.257657 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000287.png: Predicted in 0.248820 seconds.
+car_s: 93%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000288.png: Predicted in 0.271853 seconds.
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000289.png: Predicted in 0.279947 seconds.
+car_s: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000290.png: Predicted in 0.270257 seconds.
+car_s: 50%
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000291.png: Predicted in 0.258236 seconds.
+car_s: 57%
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000292.png: Predicted in 0.249685 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000293.png: Predicted in 0.276739 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000294.png: Predicted in 0.256955 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000295.png: Predicted in 0.320459 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000296.png: Predicted in 0.264883 seconds.
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000297.png: Predicted in 0.256351 seconds.
+bicycle: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000298.png: Predicted in 0.250692 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000299.png: Predicted in 0.267975 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000300.png: Predicted in 0.246620 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000301.png: Predicted in 0.259448 seconds.
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000302.png: Predicted in 0.242077 seconds.
+bicycle: 65%
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000303.png: Predicted in 0.264624 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000304.png: Predicted in 0.244644 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000305.png: Predicted in 0.252261 seconds.
+bicycle: 86%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000306.png: Predicted in 0.247022 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000307.png: Predicted in 0.264060 seconds.
+car_s: 74%
+walker: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000308.png: Predicted in 0.243914 seconds.
+car_s: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000309.png: Predicted in 0.279376 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000310.png: Predicted in 0.255712 seconds.
+car_s: 51%
+car_s: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000311.png: Predicted in 0.250810 seconds.
+car_s: 69%
+car_s: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000312.png: Predicted in 0.246068 seconds.
+car_s: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000313.png: Predicted in 0.253510 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000314.png: Predicted in 0.253823 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000315.png: Predicted in 0.247762 seconds.
+bicycle: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000316.png: Predicted in 0.250234 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000317.png: Predicted in 0.243334 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000318.png: Predicted in 0.249740 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000319.png: Predicted in 0.272674 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000320.png: Predicted in 0.259233 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000321.png: Predicted in 0.252880 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000322.png: Predicted in 0.247679 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000323.png: Predicted in 0.253228 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000324.png: Predicted in 0.245906 seconds.
+car_s: 62%
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000325.png: Predicted in 0.250073 seconds.
+car_s: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000326.png: Predicted in 0.251367 seconds.
+car_s: 38%
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000327.png: Predicted in 0.259344 seconds.
+car_s: 85%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000328.png: Predicted in 0.271667 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000329.png: Predicted in 0.256119 seconds.
+car_s: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000330.png: Predicted in 0.261714 seconds.
+car_s: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000331.png: Predicted in 0.240480 seconds.
+car_s: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000332.png: Predicted in 0.262532 seconds.
+car_s: 53%
+car_s: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000333.png: Predicted in 0.246227 seconds.
+car_s: 66%
+car_s: 26%
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000334.png: Predicted in 0.258541 seconds.
+car_s: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000335.png: Predicted in 0.256922 seconds.
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000336.png: Predicted in 0.253993 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000337.png: Predicted in 0.254992 seconds.
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000338.png: Predicted in 0.249014 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000339.png: Predicted in 0.280911 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000340.png: Predicted in 0.295865 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000341.png: Predicted in 0.262819 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000342.png: Predicted in 0.269847 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000343.png: Predicted in 0.272744 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000344.png: Predicted in 0.281497 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000345.png: Predicted in 0.270414 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000346.png: Predicted in 0.293758 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000347.png: Predicted in 0.280181 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000348.png: Predicted in 0.279368 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000349.png: Predicted in 0.261556 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000350.png: Predicted in 0.273036 seconds.
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000351.png: Predicted in 0.274717 seconds.
+car_s: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000352.png: Predicted in 0.280382 seconds.
+car_s: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000353.png: Predicted in 0.282574 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000354.png: Predicted in 0.266788 seconds.
+car_s: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000355.png: Predicted in 0.278498 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000356.png: Predicted in 0.274634 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000357.png: Predicted in 0.266225 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000358.png: Predicted in 0.276136 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000359.png: Predicted in 0.282693 seconds.
+car_s: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000360.png: Predicted in 0.276029 seconds.
+car_s: 83%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000361.png: Predicted in 0.275899 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000362.png: Predicted in 0.257382 seconds.
+car_s: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000363.png: Predicted in 0.287841 seconds.
+car_s: 78%
+car_s: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000364.png: Predicted in 0.270248 seconds.
+bicycle: 33%
+car_s: 77%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000365.png: Predicted in 0.275024 seconds.
+car_s: 69%
+car_s: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000366.png: Predicted in 0.284971 seconds.
+car_s: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000367.png: Predicted in 0.271762 seconds.
+car_s: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000368.png: Predicted in 0.265891 seconds.
+car_s: 87%
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000369.png: Predicted in 0.263596 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000370.png: Predicted in 0.264061 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000371.png: Predicted in 0.281723 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000372.png: Predicted in 0.300649 seconds.
+bicycle: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000373.png: Predicted in 0.271145 seconds.
+bicycle: 58%
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000374.png: Predicted in 0.289721 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000375.png: Predicted in 0.273319 seconds.
+car_s: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000376.png: Predicted in 0.285275 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000377.png: Predicted in 0.259846 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000378.png: Predicted in 0.260662 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000379.png: Predicted in 0.281057 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000380.png: Predicted in 0.274836 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000381.png: Predicted in 0.278023 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000382.png: Predicted in 0.266421 seconds.
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000383.png: Predicted in 0.271223 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000384.png: Predicted in 0.282927 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000385.png: Predicted in 0.256250 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000386.png: Predicted in 0.264451 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000387.png: Predicted in 0.289911 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000388.png: Predicted in 0.270176 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000389.png: Predicted in 0.266976 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000390.png: Predicted in 0.276322 seconds.
+car_s: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000391.png: Predicted in 0.258878 seconds.
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000392.png: Predicted in 0.293350 seconds.
+car_s: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000393.png: Predicted in 0.271305 seconds.
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000394.png: Predicted in 0.274605 seconds.
+car_s: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000395.png: Predicted in 0.273170 seconds.
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000396.png: Predicted in 0.267691 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000397.png: Predicted in 0.271529 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000398.png: Predicted in 0.288212 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000399.png: Predicted in 0.266630 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000400.png: Predicted in 0.277011 seconds.
+bicycle: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000401.png: Predicted in 0.256720 seconds.
+bicycle: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000402.png: Predicted in 0.266486 seconds.
+bicycle: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000403.png: Predicted in 0.277344 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000404.png: Predicted in 0.293726 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000405.png: Predicted in 0.252342 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000406.png: Predicted in 0.283672 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000407.png: Predicted in 0.287564 seconds.
+bicycle: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000408.png: Predicted in 0.262148 seconds.
+car_s: 25%
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000409.png: Predicted in 0.272035 seconds.
+bicycle: 31%
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000410.png: Predicted in 0.259303 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000411.png: Predicted in 0.268333 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000412.png: Predicted in 0.268612 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000413.png: Predicted in 0.259824 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000414.png: Predicted in 0.278241 seconds.
+bicycle: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000415.png: Predicted in 0.276458 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000416.png: Predicted in 0.266941 seconds.
+bicycle: 26%
+bicycle: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000417.png: Predicted in 0.285036 seconds.
+bicycle: 36%
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000418.png: Predicted in 0.285956 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000419.png: Predicted in 0.260144 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000420.png: Predicted in 0.276125 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000421.png: Predicted in 0.261991 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000422.png: Predicted in 0.279259 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000423.png: Predicted in 0.270266 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000424.png: Predicted in 0.278480 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000425.png: Predicted in 0.263413 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000426.png: Predicted in 0.265447 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000427.png: Predicted in 0.265903 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000428.png: Predicted in 0.277477 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000429.png: Predicted in 0.267025 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000430.png: Predicted in 0.270585 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000431.png: Predicted in 0.265519 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000432.png: Predicted in 0.294021 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000433.png: Predicted in 0.275468 seconds.
+bicycle: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000434.png: Predicted in 0.262237 seconds.
+car_s: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000435.png: Predicted in 0.272046 seconds.
+car_s: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000436.png: Predicted in 0.258759 seconds.
+car_s: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000437.png: Predicted in 0.275721 seconds.
+car_s: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000438.png: Predicted in 0.258666 seconds.
+car_s: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000439.png: Predicted in 0.248064 seconds.
+car_s: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000440.png: Predicted in 0.251055 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000441.png: Predicted in 0.251713 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000442.png: Predicted in 0.258049 seconds.
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000443.png: Predicted in 0.259850 seconds.
+car_s: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000444.png: Predicted in 0.250148 seconds.
+bicycle: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000445.png: Predicted in 0.253285 seconds.
+bicycle: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000446.png: Predicted in 0.237436 seconds.
+car_s: 27%
+bicycle: 33%
+bicycle: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000447.png: Predicted in 0.252895 seconds.
+car_s: 40%
+bicycle: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000448.png: Predicted in 0.240082 seconds.
+car_s: 38%
+bicycle: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000449.png: Predicted in 0.258676 seconds.
+car_s: 31%
+bicycle: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000450.png: Predicted in 0.255489 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000451.png: Predicted in 0.237200 seconds.
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000452.png: Predicted in 0.253618 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000453.png: Predicted in 0.253450 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000454.png: Predicted in 0.259689 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000455.png: Predicted in 0.243781 seconds.
+bicycle: 35%
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000456.png: Predicted in 0.243550 seconds.
+bicycle: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000457.png: Predicted in 0.256758 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000458.png: Predicted in 0.244493 seconds.
+car_s: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000459.png: Predicted in 0.260146 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000460.png: Predicted in 0.249304 seconds.
+bicycle: 45%
+car_s: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000461.png: Predicted in 0.247270 seconds.
+bicycle: 52%
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000462.png: Predicted in 0.263155 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000463.png: Predicted in 0.266921 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000464.png: Predicted in 0.256117 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000465.png: Predicted in 0.243276 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000466.png: Predicted in 0.244021 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000467.png: Predicted in 0.250940 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000468.png: Predicted in 0.263228 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000469.png: Predicted in 0.252208 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000470.png: Predicted in 0.252696 seconds.
+car_s: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000471.png: Predicted in 0.246016 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000472.png: Predicted in 0.258357 seconds.
+bicycle: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000473.png: Predicted in 0.263441 seconds.
+bicycle: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000474.png: Predicted in 0.259780 seconds.
+bicycle: 86%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000475.png: Predicted in 0.251900 seconds.
+bicycle: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000476.png: Predicted in 0.262428 seconds.
+bicycle: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000477.png: Predicted in 0.261012 seconds.
+bicycle: 25%
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000478.png: Predicted in 0.264139 seconds.
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000479.png: Predicted in 0.272643 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000480.png: Predicted in 0.253309 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000481.png: Predicted in 0.250442 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000482.png: Predicted in 0.291150 seconds.
+car_s: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000483.png: Predicted in 0.253066 seconds.
+car_s: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000484.png: Predicted in 0.246617 seconds.
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000485.png: Predicted in 0.326630 seconds.
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000486.png: Predicted in 0.291706 seconds.
+car_s: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000487.png: Predicted in 0.222146 seconds.
+car_s: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000488.png: Predicted in 0.208049 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000489.png: Predicted in 0.213416 seconds.
+car_s: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000490.png: Predicted in 0.227105 seconds.
+car_s: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000491.png: Predicted in 0.281778 seconds.
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000492.png: Predicted in 0.221875 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000493.png: Predicted in 0.249085 seconds.
+car_s: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000494.png: Predicted in 0.326779 seconds.
+car_s: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000495.png: Predicted in 0.244611 seconds.
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000496.png: Predicted in 0.220369 seconds.
+bicycle: 77%
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000497.png: Predicted in 0.209222 seconds.
+car_s: 37%
+bicycle: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000498.png: Predicted in 0.206870 seconds.
+car_s: 32%
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000499.png: Predicted in 0.209295 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000500.png: Predicted in 0.207044 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000501.png: Predicted in 0.216282 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000502.png: Predicted in 0.219965 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000503.png: Predicted in 0.210383 seconds.
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000504.png: Predicted in 0.206988 seconds.
+car_s: 37%
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000505.png: Predicted in 0.244164 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000506.png: Predicted in 0.304789 seconds.
+bicycle: 58%
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000507.png: Predicted in 0.213440 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000508.png: Predicted in 0.212696 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000509.png: Predicted in 0.217267 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000510.png: Predicted in 0.214637 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000511.png: Predicted in 0.207284 seconds.
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000512.png: Predicted in 0.232461 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000513.png: Predicted in 0.300591 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000514.png: Predicted in 0.263872 seconds.
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000515.png: Predicted in 0.217060 seconds.
+walker: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000516.png: Predicted in 0.282443 seconds.
+walker: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000517.png: Predicted in 0.306202 seconds.
+walker: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000518.png: Predicted in 0.311003 seconds.
+walker: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000519.png: Predicted in 0.261990 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000520.png: Predicted in 0.238592 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000521.png: Predicted in 0.243590 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000522.png: Predicted in 0.216228 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000523.png: Predicted in 0.225081 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000524.png: Predicted in 0.232726 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000525.png: Predicted in 0.206315 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000526.png: Predicted in 0.207616 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000527.png: Predicted in 0.205309 seconds.
+car_s: 44%
+car_s: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000528.png: Predicted in 0.232219 seconds.
+car_s: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000529.png: Predicted in 0.220411 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000530.png: Predicted in 0.223402 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000531.png: Predicted in 0.225164 seconds.
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000532.png: Predicted in 0.227214 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000533.png: Predicted in 0.216910 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000534.png: Predicted in 0.225996 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000535.png: Predicted in 0.228105 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000536.png: Predicted in 0.225770 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000537.png: Predicted in 0.219449 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000538.png: Predicted in 0.217636 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000539.png: Predicted in 0.220654 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000540.png: Predicted in 0.225603 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000541.png: Predicted in 0.217631 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000542.png: Predicted in 0.216886 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000543.png: Predicted in 0.317431 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000544.png: Predicted in 0.293288 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000545.png: Predicted in 0.234450 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000546.png: Predicted in 0.309477 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000547.png: Predicted in 0.300285 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000548.png: Predicted in 0.308181 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000549.png: Predicted in 0.298201 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000550.png: Predicted in 0.330673 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000551.png: Predicted in 0.210909 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000552.png: Predicted in 0.269842 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000553.png: Predicted in 0.207762 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000554.png: Predicted in 0.303348 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000555.png: Predicted in 0.368589 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000556.png: Predicted in 0.285399 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000557.png: Predicted in 0.306162 seconds.
+car_s: 31%
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000558.png: Predicted in 0.346690 seconds.
+bicycle: 42%
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000559.png: Predicted in 0.436153 seconds.
+car_s: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000560.png: Predicted in 0.284375 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000561.png: Predicted in 0.258451 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000562.png: Predicted in 0.243726 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000563.png: Predicted in 0.216493 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000564.png: Predicted in 0.231577 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000565.png: Predicted in 0.214348 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000566.png: Predicted in 0.214941 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000567.png: Predicted in 0.206482 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000568.png: Predicted in 0.215145 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000569.png: Predicted in 0.223778 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000570.png: Predicted in 0.225454 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000571.png: Predicted in 0.272599 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000572.png: Predicted in 0.209552 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000573.png: Predicted in 0.205136 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000574.png: Predicted in 0.207034 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000575.png: Predicted in 0.209213 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000576.png: Predicted in 0.253103 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000577.png: Predicted in 0.227552 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000578.png: Predicted in 0.221786 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000579.png: Predicted in 0.226261 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000580.png: Predicted in 0.277861 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000581.png: Predicted in 0.311979 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000582.png: Predicted in 0.246899 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000583.png: Predicted in 0.298237 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000584.png: Predicted in 0.234546 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000585.png: Predicted in 0.295518 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000586.png: Predicted in 0.261769 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000587.png: Predicted in 0.225975 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000588.png: Predicted in 0.245325 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000589.png: Predicted in 0.241056 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000590.png: Predicted in 0.250334 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000591.png: Predicted in 0.294891 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000592.png: Predicted in 0.268921 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000593.png: Predicted in 0.212667 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000594.png: Predicted in 0.217512 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000595.png: Predicted in 0.209843 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000596.png: Predicted in 0.261156 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000597.png: Predicted in 0.230986 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000598.png: Predicted in 0.372534 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000599.png: Predicted in 0.308574 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000600.png: Predicted in 0.228990 seconds.
+car_s: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000601.png: Predicted in 0.227042 seconds.
+car_s: 93%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000602.png: Predicted in 0.236874 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000603.png: Predicted in 0.290070 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000604.png: Predicted in 0.467155 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000605.png: Predicted in 0.382163 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000606.png: Predicted in 0.378091 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000607.png: Predicted in 0.280936 seconds.
+car_s: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000608.png: Predicted in 0.249947 seconds.
+car_s: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000609.png: Predicted in 0.334663 seconds.
+car_s: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000610.png: Predicted in 0.271667 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000611.png: Predicted in 0.250728 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000612.png: Predicted in 0.269494 seconds.
+car_s: 66%
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000613.png: Predicted in 0.254395 seconds.
+car_s: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000614.png: Predicted in 0.289838 seconds.
+car_s: 58%
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000615.png: Predicted in 0.255455 seconds.
+bicycle: 55%
+car_s: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000616.png: Predicted in 0.225384 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000617.png: Predicted in 0.241905 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000618.png: Predicted in 0.250422 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000619.png: Predicted in 0.217718 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000620.png: Predicted in 0.205373 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000621.png: Predicted in 0.208597 seconds.
+car_s: 96%
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000622.png: Predicted in 0.203978 seconds.
+car_s: 96%
+bicycle: 30%
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000623.png: Predicted in 0.212858 seconds.
+car_s: 94%
+bicycle: 38%
+car_s: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000624.png: Predicted in 0.205202 seconds.
+car_s: 94%
+bicycle: 61%
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000625.png: Predicted in 0.203740 seconds.
+bicycle: 66%
+car_s: 94%
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000626.png: Predicted in 0.206335 seconds.
+bicycle: 73%
+car_s: 88%
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000627.png: Predicted in 0.203565 seconds.
+bicycle: 65%
+car_s: 88%
+car_s: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000628.png: Predicted in 0.217375 seconds.
+bicycle: 64%
+car_s: 87%
+car_s: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000629.png: Predicted in 0.205461 seconds.
+bicycle: 63%
+car_s: 87%
+car_s: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000630.png: Predicted in 0.217881 seconds.
+bicycle: 64%
+car_s: 87%
+car_s: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000631.png: Predicted in 0.202337 seconds.
+bicycle: 63%
+car_s: 87%
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000632.png: Predicted in 0.203413 seconds.
+bicycle: 60%
+car_s: 87%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000633.png: Predicted in 0.202096 seconds.
+bicycle: 60%
+car_s: 87%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000634.png: Predicted in 0.210946 seconds.
+bicycle: 60%
+car_s: 87%
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000635.png: Predicted in 0.216974 seconds.
+bicycle: 58%
+car_s: 87%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000636.png: Predicted in 0.232924 seconds.
+bicycle: 58%
+car_s: 89%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000637.png: Predicted in 0.220912 seconds.
+bicycle: 58%
+car_s: 87%
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000638.png: Predicted in 0.223154 seconds.
+bicycle: 58%
+car_s: 92%
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000639.png: Predicted in 0.218844 seconds.
+bicycle: 56%
+car_s: 96%
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000640.png: Predicted in 0.217176 seconds.
+bicycle: 59%
+car_s: 97%
+car_s: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000641.png: Predicted in 0.215069 seconds.
+bicycle: 59%
+car_s: 96%
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000642.png: Predicted in 0.217171 seconds.
+bicycle: 59%
+car_s: 95%
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000643.png: Predicted in 0.228105 seconds.
+bicycle: 59%
+car_s: 93%
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000644.png: Predicted in 0.217219 seconds.
+car_s: 68%
+bicycle: 60%
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000645.png: Predicted in 0.217044 seconds.
+bicycle: 59%
+car_s: 81%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000646.png: Predicted in 0.227702 seconds.
+bicycle: 59%
+car_s: 74%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000647.png: Predicted in 0.240086 seconds.
+bicycle: 60%
+car_s: 73%
+car_s: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000648.png: Predicted in 0.232281 seconds.
+car_s: 75%
+bicycle: 57%
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000649.png: Predicted in 0.231975 seconds.
+car_s: 75%
+bicycle: 56%
+car_s: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000650.png: Predicted in 0.217508 seconds.
+car_s: 75%
+bicycle: 54%
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000651.png: Predicted in 0.217994 seconds.
+car_s: 76%
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000652.png: Predicted in 0.216776 seconds.
+car_s: 77%
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000653.png: Predicted in 0.213406 seconds.
+car_s: 76%
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000654.png: Predicted in 0.204262 seconds.
+car_s: 75%
+bicycle: 40%
+car_s: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000655.png: Predicted in 0.203256 seconds.
+car_s: 76%
+bicycle: 37%
+car_s: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000656.png: Predicted in 0.226644 seconds.
+car_s: 74%
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000657.png: Predicted in 0.219511 seconds.
+car_s: 71%
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000658.png: Predicted in 0.213334 seconds.
+car_s: 64%
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000659.png: Predicted in 0.205910 seconds.
+car_s: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000660.png: Predicted in 0.203185 seconds.
+car_s: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000661.png: Predicted in 0.201947 seconds.
+car_s: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000662.png: Predicted in 0.206905 seconds.
+car_s: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000663.png: Predicted in 0.203359 seconds.
+car_s: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000664.png: Predicted in 0.201684 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000665.png: Predicted in 0.205942 seconds.
+bicycle: 31%
+car_s: 30%
+car_s: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000666.png: Predicted in 0.220992 seconds.
+car_s: 50%
+car_s: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000667.png: Predicted in 0.205468 seconds.
+car_s: 61%
+car_s: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000668.png: Predicted in 0.205696 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000669.png: Predicted in 0.212081 seconds.
+car_s: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000670.png: Predicted in 0.214555 seconds.
+car_s: 47%
+bicycle: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000671.png: Predicted in 0.214410 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000672.png: Predicted in 0.205605 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000673.png: Predicted in 0.229243 seconds.
+bicycle: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000674.png: Predicted in 0.217871 seconds.
+car_s: 41%
+bicycle: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000675.png: Predicted in 0.218565 seconds.
+car_s: 61%
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000676.png: Predicted in 0.216312 seconds.
+car_s: 37%
+car_s: 73%
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000677.png: Predicted in 0.216383 seconds.
+car_s: 43%
+car_s: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000678.png: Predicted in 0.218057 seconds.
+car_s: 43%
+car_s: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000679.png: Predicted in 0.224955 seconds.
+car_s: 49%
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000680.png: Predicted in 0.217505 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000681.png: Predicted in 0.218164 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000682.png: Predicted in 0.222349 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000683.png: Predicted in 0.216127 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000684.png: Predicted in 0.217413 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000685.png: Predicted in 0.221374 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000686.png: Predicted in 0.218125 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000687.png: Predicted in 0.218892 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000688.png: Predicted in 0.216618 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000689.png: Predicted in 0.226165 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000690.png: Predicted in 0.215916 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000691.png: Predicted in 0.204814 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000692.png: Predicted in 0.205914 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000693.png: Predicted in 0.206284 seconds.
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000694.png: Predicted in 0.213594 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000695.png: Predicted in 0.202368 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000696.png: Predicted in 0.204103 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000697.png: Predicted in 0.206436 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000698.png: Predicted in 0.202795 seconds.
+bicycle: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000699.png: Predicted in 0.204915 seconds.
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000700.png: Predicted in 0.204517 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000701.png: Predicted in 0.213414 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000702.png: Predicted in 0.218630 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000703.png: Predicted in 0.215599 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000704.png: Predicted in 0.208127 seconds.
+bicycle: 73%
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000705.png: Predicted in 0.203436 seconds.
+bicycle: 47%
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000706.png: Predicted in 0.201819 seconds.
+bicycle: 37%
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000707.png: Predicted in 0.203488 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000708.png: Predicted in 0.203411 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000709.png: Predicted in 0.204762 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000710.png: Predicted in 0.213159 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000711.png: Predicted in 0.263329 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000712.png: Predicted in 0.229698 seconds.
+bicycle: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000713.png: Predicted in 0.228625 seconds.
+bicycle: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000714.png: Predicted in 0.232011 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000715.png: Predicted in 0.238635 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000716.png: Predicted in 0.219087 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000717.png: Predicted in 0.222795 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000718.png: Predicted in 0.223972 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000719.png: Predicted in 0.218443 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000720.png: Predicted in 0.224391 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000721.png: Predicted in 0.220427 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000722.png: Predicted in 0.221631 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000723.png: Predicted in 0.240552 seconds.
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000724.png: Predicted in 0.222087 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000725.png: Predicted in 0.215493 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000726.png: Predicted in 0.220360 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000727.png: Predicted in 0.214486 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000728.png: Predicted in 0.203939 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000729.png: Predicted in 0.209241 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000730.png: Predicted in 0.210832 seconds.
+bicycle: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000731.png: Predicted in 0.207410 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000732.png: Predicted in 0.204148 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000733.png: Predicted in 0.201781 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000734.png: Predicted in 0.214880 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000735.png: Predicted in 0.204163 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000736.png: Predicted in 0.221009 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000737.png: Predicted in 0.210709 seconds.
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000738.png: Predicted in 0.204626 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000739.png: Predicted in 0.206107 seconds.
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000740.png: Predicted in 0.204113 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000741.png: Predicted in 0.203304 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000742.png: Predicted in 0.203740 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000743.png: Predicted in 0.209976 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000744.png: Predicted in 0.209601 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000745.png: Predicted in 0.206440 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000746.png: Predicted in 0.206469 seconds.
+bicycle: 61%
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000747.png: Predicted in 0.216932 seconds.
+bicycle: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000748.png: Predicted in 0.216582 seconds.
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000749.png: Predicted in 0.218827 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000750.png: Predicted in 0.217393 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000751.png: Predicted in 0.217743 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000752.png: Predicted in 0.218317 seconds.
+bicycle: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000753.png: Predicted in 0.218426 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000754.png: Predicted in 0.218582 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000755.png: Predicted in 0.222613 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000756.png: Predicted in 0.216697 seconds.
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000757.png: Predicted in 0.231732 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000758.png: Predicted in 0.226320 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000759.png: Predicted in 0.217955 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000760.png: Predicted in 0.226739 seconds.
+bicycle: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000761.png: Predicted in 0.219197 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000762.png: Predicted in 0.217801 seconds.
+bicycle: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000763.png: Predicted in 0.217299 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000764.png: Predicted in 0.216952 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000765.png: Predicted in 0.206440 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000766.png: Predicted in 0.206679 seconds.
+bicycle: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000767.png: Predicted in 0.204047 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000768.png: Predicted in 0.227062 seconds.
+car_s: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000769.png: Predicted in 0.280974 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000770.png: Predicted in 0.226841 seconds.
+car_s: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000771.png: Predicted in 0.203841 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000772.png: Predicted in 0.212585 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000773.png: Predicted in 0.300050 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000774.png: Predicted in 0.400695 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000775.png: Predicted in 0.353903 seconds.
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000776.png: Predicted in 0.292832 seconds.
+car_s: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000777.png: Predicted in 0.269199 seconds.
+car_s: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000778.png: Predicted in 0.247582 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000779.png: Predicted in 0.212517 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000780.png: Predicted in 0.209748 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000781.png: Predicted in 0.215233 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000782.png: Predicted in 0.223400 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000783.png: Predicted in 0.231055 seconds.
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000784.png: Predicted in 0.217352 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000785.png: Predicted in 0.224300 seconds.
+car_s: 33%
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000786.png: Predicted in 0.215613 seconds.
+car_s: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000787.png: Predicted in 0.230120 seconds.
+car_s: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000788.png: Predicted in 0.215830 seconds.
+car_s: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000789.png: Predicted in 0.223424 seconds.
+car_s: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000790.png: Predicted in 0.309936 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000791.png: Predicted in 0.220918 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000792.png: Predicted in 0.218085 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000793.png: Predicted in 0.258620 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000794.png: Predicted in 0.332644 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000795.png: Predicted in 0.302565 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000796.png: Predicted in 0.326343 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000797.png: Predicted in 0.244959 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000798.png: Predicted in 0.208128 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000799.png: Predicted in 0.229259 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000800.png: Predicted in 0.296888 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000801.png: Predicted in 0.223282 seconds.
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000802.png: Predicted in 0.215984 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000803.png: Predicted in 0.230132 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000804.png: Predicted in 0.233378 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000805.png: Predicted in 0.264169 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000806.png: Predicted in 0.251293 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000807.png: Predicted in 0.257654 seconds.
+bicycle: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000808.png: Predicted in 0.251656 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000809.png: Predicted in 0.248757 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000810.png: Predicted in 0.285159 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000811.png: Predicted in 0.371415 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000812.png: Predicted in 0.366952 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000813.png: Predicted in 0.281555 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000814.png: Predicted in 0.250047 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000815.png: Predicted in 0.245077 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000816.png: Predicted in 0.272547 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000817.png: Predicted in 0.284988 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000818.png: Predicted in 0.293966 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000819.png: Predicted in 0.402533 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000820.png: Predicted in 0.368646 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000821.png: Predicted in 0.279802 seconds.
+bicycle: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000822.png: Predicted in 0.250353 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000823.png: Predicted in 0.230479 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000824.png: Predicted in 0.236913 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000825.png: Predicted in 0.251099 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000826.png: Predicted in 0.227074 seconds.
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000827.png: Predicted in 0.237165 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000828.png: Predicted in 0.238382 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000829.png: Predicted in 0.245153 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000830.png: Predicted in 0.223621 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000831.png: Predicted in 0.236283 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000832.png: Predicted in 0.246486 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000833.png: Predicted in 0.373916 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000834.png: Predicted in 0.352889 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000835.png: Predicted in 0.228268 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000836.png: Predicted in 0.267854 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000837.png: Predicted in 0.275480 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000838.png: Predicted in 0.223915 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000839.png: Predicted in 0.240709 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000840.png: Predicted in 0.256470 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000841.png: Predicted in 0.229466 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000842.png: Predicted in 0.293544 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000843.png: Predicted in 0.283292 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000844.png: Predicted in 0.420210 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000845.png: Predicted in 0.321174 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000846.png: Predicted in 0.275236 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000847.png: Predicted in 0.249258 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000848.png: Predicted in 0.255264 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000849.png: Predicted in 0.303654 seconds.
+bicycle: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000850.png: Predicted in 0.329683 seconds.
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000851.png: Predicted in 0.293601 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000852.png: Predicted in 0.296625 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000853.png: Predicted in 0.304953 seconds.
+bicycle: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000854.png: Predicted in 0.341081 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000855.png: Predicted in 0.272424 seconds.
+bicycle: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000856.png: Predicted in 0.247742 seconds.
+bicycle: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000857.png: Predicted in 0.239453 seconds.
+bicycle: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000858.png: Predicted in 0.212524 seconds.
+bicycle: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000859.png: Predicted in 0.237851 seconds.
+bicycle: 76%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000860.png: Predicted in 0.242003 seconds.
+bicycle: 74%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000861.png: Predicted in 0.224611 seconds.
+bicycle: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000862.png: Predicted in 0.215477 seconds.
+bicycle: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000863.png: Predicted in 0.209914 seconds.
+bicycle: 65%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000864.png: Predicted in 0.234064 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000865.png: Predicted in 0.222616 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000866.png: Predicted in 0.224370 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000867.png: Predicted in 0.228971 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000868.png: Predicted in 0.254135 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000869.png: Predicted in 0.229828 seconds.
+bicycle: 50%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000870.png: Predicted in 0.210820 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000871.png: Predicted in 0.231144 seconds.
+bicycle: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000872.png: Predicted in 0.244198 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000873.png: Predicted in 0.215242 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000874.png: Predicted in 0.236357 seconds.
+bicycle: 83%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000875.png: Predicted in 0.218597 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000876.png: Predicted in 0.227889 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000877.png: Predicted in 0.218580 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000878.png: Predicted in 0.200598 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000879.png: Predicted in 0.203435 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000880.png: Predicted in 0.202199 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000881.png: Predicted in 0.210673 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000882.png: Predicted in 0.254579 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000883.png: Predicted in 0.275609 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000884.png: Predicted in 0.319159 seconds.
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000885.png: Predicted in 0.331230 seconds.
+bicycle: 66%
+bicycle: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000886.png: Predicted in 0.268537 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000887.png: Predicted in 0.253310 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000888.png: Predicted in 0.218535 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000889.png: Predicted in 0.216724 seconds.
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000890.png: Predicted in 0.212272 seconds.
+bicycle: 49%
+bicycle: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000891.png: Predicted in 0.215378 seconds.
+bicycle: 25%
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000892.png: Predicted in 0.223089 seconds.
+bicycle: 42%
+bicycle: 86%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000893.png: Predicted in 0.218045 seconds.
+bicycle: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000894.png: Predicted in 0.211055 seconds.
+car_s: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000895.png: Predicted in 0.221432 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000896.png: Predicted in 0.217396 seconds.
+car_s: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000897.png: Predicted in 0.223382 seconds.
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000898.png: Predicted in 0.286938 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000899.png: Predicted in 0.283897 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000900.png: Predicted in 0.299084 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000901.png: Predicted in 0.255039 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000902.png: Predicted in 0.232332 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000903.png: Predicted in 0.240878 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000904.png: Predicted in 0.224085 seconds.
+bicycle: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000905.png: Predicted in 0.208369 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000906.png: Predicted in 0.208824 seconds.
+bicycle: 79%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000907.png: Predicted in 0.198531 seconds.
+bicycle: 85%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000908.png: Predicted in 0.226571 seconds.
+car_s: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000909.png: Predicted in 0.211688 seconds.
+bicycle: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000910.png: Predicted in 0.215234 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000911.png: Predicted in 0.202008 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000912.png: Predicted in 0.216740 seconds.
+bicycle: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000913.png: Predicted in 0.198968 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000914.png: Predicted in 0.209268 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000915.png: Predicted in 0.223949 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000916.png: Predicted in 0.206668 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000917.png: Predicted in 0.207856 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000918.png: Predicted in 0.199868 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000919.png: Predicted in 0.259093 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000920.png: Predicted in 0.239168 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000921.png: Predicted in 0.291895 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000922.png: Predicted in 0.258201 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000923.png: Predicted in 0.236379 seconds.
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000924.png: Predicted in 0.254620 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000925.png: Predicted in 0.226843 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000926.png: Predicted in 0.224130 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000927.png: Predicted in 0.221929 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000928.png: Predicted in 0.217640 seconds.
+bicycle: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000929.png: Predicted in 0.216722 seconds.
+bicycle: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000930.png: Predicted in 0.212207 seconds.
+bicycle: 83%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000931.png: Predicted in 0.221975 seconds.
+bicycle: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000932.png: Predicted in 0.223525 seconds.
+bicycle: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000933.png: Predicted in 0.219973 seconds.
+bicycle: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000934.png: Predicted in 0.220341 seconds.
+bicycle: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000935.png: Predicted in 0.216372 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000936.png: Predicted in 0.268051 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000937.png: Predicted in 0.277275 seconds.
+bicycle: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000938.png: Predicted in 0.315328 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000939.png: Predicted in 0.269119 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000940.png: Predicted in 0.239019 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000941.png: Predicted in 0.209734 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000942.png: Predicted in 0.204770 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000943.png: Predicted in 0.208649 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000944.png: Predicted in 0.197850 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000945.png: Predicted in 0.199169 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000946.png: Predicted in 0.197519 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000947.png: Predicted in 0.208283 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000948.png: Predicted in 0.212075 seconds.
+car_s: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000949.png: Predicted in 0.210177 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000950.png: Predicted in 0.200345 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000951.png: Predicted in 0.210387 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000952.png: Predicted in 0.198208 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000953.png: Predicted in 0.199901 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000954.png: Predicted in 0.213712 seconds.
+bicycle: 25%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000955.png: Predicted in 0.200061 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000956.png: Predicted in 0.198162 seconds.
+car_s: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000957.png: Predicted in 0.197786 seconds.
+car_s: 43%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000958.png: Predicted in 0.212835 seconds.
+bicycle: 55%
+car_s: 93%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000959.png: Predicted in 0.207220 seconds.
+car_s: 88%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000960.png: Predicted in 0.227371 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000961.png: Predicted in 0.213382 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000962.png: Predicted in 0.229296 seconds.
+bicycle: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000963.png: Predicted in 0.220249 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000964.png: Predicted in 0.219638 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000965.png: Predicted in 0.251726 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000966.png: Predicted in 0.274979 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000967.png: Predicted in 0.265729 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000968.png: Predicted in 0.298504 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000969.png: Predicted in 0.279692 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000970.png: Predicted in 0.228292 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000971.png: Predicted in 0.222351 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000972.png: Predicted in 0.213133 seconds.
+car_s: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000973.png: Predicted in 0.221275 seconds.
+car_s: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000974.png: Predicted in 0.211174 seconds.
+car_s: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000975.png: Predicted in 0.210983 seconds.
+car_s: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000976.png: Predicted in 0.207139 seconds.
+car_s: 30%
+walker: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000977.png: Predicted in 0.198597 seconds.
+walker: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000978.png: Predicted in 0.198314 seconds.
+bicycle: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000979.png: Predicted in 0.229561 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000980.png: Predicted in 0.217472 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000981.png: Predicted in 0.220074 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000982.png: Predicted in 0.205849 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000983.png: Predicted in 0.276944 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000984.png: Predicted in 0.250370 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000985.png: Predicted in 0.256619 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000986.png: Predicted in 0.261174 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000987.png: Predicted in 0.329892 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000988.png: Predicted in 0.256041 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000989.png: Predicted in 0.246894 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000990.png: Predicted in 0.237686 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000991.png: Predicted in 0.204322 seconds.
+bicycle: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000992.png: Predicted in 0.232318 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000993.png: Predicted in 0.205175 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000994.png: Predicted in 0.222970 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000995.png: Predicted in 0.211745 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000996.png: Predicted in 0.224420 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000997.png: Predicted in 0.220196 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000998.png: Predicted in 0.218994 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/000999.png: Predicted in 0.211141 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001000.png: Predicted in 0.232745 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001001.png: Predicted in 0.313242 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001002.png: Predicted in 0.251489 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001003.png: Predicted in 0.296547 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001004.png: Predicted in 0.232096 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001005.png: Predicted in 0.218271 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001006.png: Predicted in 0.232273 seconds.
+bicycle: 34%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001007.png: Predicted in 0.260705 seconds.
+bicycle: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001008.png: Predicted in 0.242620 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001009.png: Predicted in 0.228675 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001010.png: Predicted in 0.218154 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001011.png: Predicted in 0.210988 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001012.png: Predicted in 0.204122 seconds.
+bicycle: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001013.png: Predicted in 0.197668 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001014.png: Predicted in 0.215454 seconds.
+bicycle: 41%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001015.png: Predicted in 0.216804 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001016.png: Predicted in 0.238781 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001017.png: Predicted in 0.212888 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001018.png: Predicted in 0.205714 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001019.png: Predicted in 0.225250 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001020.png: Predicted in 0.204034 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001021.png: Predicted in 0.247860 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001022.png: Predicted in 0.200108 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001023.png: Predicted in 0.200116 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001024.png: Predicted in 0.201181 seconds.
+car_s: 79%
+walker: 26%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001025.png: Predicted in 0.198515 seconds.
+car_s: 82%
+walker: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001026.png: Predicted in 0.210653 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001027.png: Predicted in 0.215370 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001028.png: Predicted in 0.225374 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001029.png: Predicted in 0.228626 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001030.png: Predicted in 0.212872 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001031.png: Predicted in 0.217070 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001032.png: Predicted in 0.228825 seconds.
+car_s: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001033.png: Predicted in 0.230603 seconds.
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001034.png: Predicted in 0.222552 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001035.png: Predicted in 0.234803 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001036.png: Predicted in 0.214440 seconds.
+car_s: 79%
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001037.png: Predicted in 0.277800 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001038.png: Predicted in 0.330560 seconds.
+car_s: 68%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001039.png: Predicted in 0.248270 seconds.
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001040.png: Predicted in 0.288879 seconds.
+car_s: 63%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001041.png: Predicted in 0.448930 seconds.
+car_s: 72%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001042.png: Predicted in 0.402206 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001043.png: Predicted in 0.277695 seconds.
+bicycle: 49%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001044.png: Predicted in 0.236602 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001045.png: Predicted in 0.285485 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001046.png: Predicted in 0.233947 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001047.png: Predicted in 0.204217 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001048.png: Predicted in 0.200262 seconds.
+car_l: 34%
+car_s: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001049.png: Predicted in 0.203422 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001050.png: Predicted in 0.203354 seconds.
+car_s: 32%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001051.png: Predicted in 0.200590 seconds.
+car_s: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001052.png: Predicted in 0.199467 seconds.
+car_s: 73%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001053.png: Predicted in 0.213281 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001054.png: Predicted in 0.221759 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001055.png: Predicted in 0.216928 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001056.png: Predicted in 0.201344 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001057.png: Predicted in 0.210663 seconds.
+bicycle: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001058.png: Predicted in 0.227537 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001059.png: Predicted in 0.207386 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001060.png: Predicted in 0.204365 seconds.
+bicycle: 31%
+car_s: 29%
+bicycle: 67%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001061.png: Predicted in 0.203031 seconds.
+bicycle: 37%
+car_s: 29%
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001062.png: Predicted in 0.217642 seconds.
+bicycle: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001063.png: Predicted in 0.210617 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001064.png: Predicted in 0.201769 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001065.png: Predicted in 0.204368 seconds.
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001066.png: Predicted in 0.206587 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001067.png: Predicted in 0.304254 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001068.png: Predicted in 0.255065 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001069.png: Predicted in 0.299074 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001070.png: Predicted in 0.381812 seconds.
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001071.png: Predicted in 0.373892 seconds.
+car_s: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001072.png: Predicted in 0.277573 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001073.png: Predicted in 0.221785 seconds.
+bicycle: 38%
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001074.png: Predicted in 0.227455 seconds.
+bicycle: 35%
+car_s: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001075.png: Predicted in 0.260520 seconds.
+car_s: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001076.png: Predicted in 0.251213 seconds.
+car_s: 46%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001077.png: Predicted in 0.265104 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001078.png: Predicted in 0.272758 seconds.
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001079.png: Predicted in 0.244314 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001080.png: Predicted in 0.216488 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001081.png: Predicted in 0.226079 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001082.png: Predicted in 0.271957 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001083.png: Predicted in 0.225628 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001084.png: Predicted in 0.255440 seconds.
+car_s: 44%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001085.png: Predicted in 0.244106 seconds.
+car_s: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001086.png: Predicted in 0.268658 seconds.
+car_s: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001087.png: Predicted in 0.235802 seconds.
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001088.png: Predicted in 0.294944 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001089.png: Predicted in 0.309068 seconds.
+car_s: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001090.png: Predicted in 0.258876 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001091.png: Predicted in 0.228285 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001092.png: Predicted in 0.242102 seconds.
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001093.png: Predicted in 0.219522 seconds.
+bicycle: 27%
+car_s: 48%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001094.png: Predicted in 0.252273 seconds.
+car_s: 39%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001095.png: Predicted in 0.290099 seconds.
+car_s: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001096.png: Predicted in 0.280998 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001097.png: Predicted in 0.235362 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001098.png: Predicted in 0.201575 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001099.png: Predicted in 0.202617 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001100.png: Predicted in 0.214554 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001101.png: Predicted in 0.201305 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001102.png: Predicted in 0.203703 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001103.png: Predicted in 0.218957 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001104.png: Predicted in 0.199622 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001105.png: Predicted in 0.202362 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001106.png: Predicted in 0.200236 seconds.
+car_s: 92%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001107.png: Predicted in 0.198890 seconds.
+car_s: 83%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001108.png: Predicted in 0.198122 seconds.
+car_s: 84%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001109.png: Predicted in 0.197936 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001110.png: Predicted in 0.204781 seconds.
+car_s: 82%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001111.png: Predicted in 0.214505 seconds.
+car_s: 87%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001112.png: Predicted in 0.212550 seconds.
+bicycle: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001113.png: Predicted in 0.251168 seconds.
+bicycle: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001114.png: Predicted in 0.270670 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001115.png: Predicted in 0.214661 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001116.png: Predicted in 0.261017 seconds.
+car_s: 51%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001117.png: Predicted in 0.276894 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001118.png: Predicted in 0.213175 seconds.
+car_s: 69%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001119.png: Predicted in 0.211716 seconds.
+car_s: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001120.png: Predicted in 0.214253 seconds.
+car_s: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001121.png: Predicted in 0.212377 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001122.png: Predicted in 0.214945 seconds.
+car_s: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001123.png: Predicted in 0.212307 seconds.
+walker: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001124.png: Predicted in 0.214173 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001125.png: Predicted in 0.212842 seconds.
+car_s: 90%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001126.png: Predicted in 0.212417 seconds.
+car_s: 62%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001127.png: Predicted in 0.211912 seconds.
+car_s: 57%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001128.png: Predicted in 0.215571 seconds.
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001129.png: Predicted in 0.203352 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001130.png: Predicted in 0.198153 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001131.png: Predicted in 0.199164 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001132.png: Predicted in 0.198531 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001133.png: Predicted in 0.200362 seconds.
+car_s: 36%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001134.png: Predicted in 0.203269 seconds.
+car_s: 37%
+car_s: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001135.png: Predicted in 0.198541 seconds.
+car_s: 35%
+car_s: 31%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001136.png: Predicted in 0.197242 seconds.
+car_s: 75%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001137.png: Predicted in 0.197166 seconds.
+car_s: 71%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001138.png: Predicted in 0.198173 seconds.
+car_s: 80%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001139.png: Predicted in 0.199163 seconds.
+car_s: 89%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001140.png: Predicted in 0.197233 seconds.
+car_s: 81%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001141.png: Predicted in 0.199354 seconds.
+car_s: 70%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001142.png: Predicted in 0.197610 seconds.
+car_s: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001143.png: Predicted in 0.197855 seconds.
+car_s: 78%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001144.png: Predicted in 0.198791 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001145.png: Predicted in 0.197871 seconds.
+car_s: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001146.png: Predicted in 0.198627 seconds.
+car_s: 77%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001147.png: Predicted in 0.197730 seconds.
+car_s: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001148.png: Predicted in 0.197994 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001149.png: Predicted in 0.278444 seconds.
+bicycle: 27%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001150.png: Predicted in 0.293297 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001151.png: Predicted in 0.248109 seconds.
+car_s: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001152.png: Predicted in 0.213547 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001153.png: Predicted in 0.226191 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001154.png: Predicted in 0.213383 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001155.png: Predicted in 0.267707 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001156.png: Predicted in 0.300375 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001157.png: Predicted in 0.231906 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001158.png: Predicted in 0.273729 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001159.png: Predicted in 0.212852 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001160.png: Predicted in 0.214326 seconds.
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001161.png: Predicted in 0.290085 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001162.png: Predicted in 0.258231 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001163.png: Predicted in 0.217448 seconds.
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001164.png: Predicted in 0.265493 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001165.png: Predicted in 0.254616 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001166.png: Predicted in 0.232370 seconds.
+bicycle: 64%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001167.png: Predicted in 0.225612 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001168.png: Predicted in 0.239313 seconds.
+bicycle: 61%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001169.png: Predicted in 0.233041 seconds.
+bicycle: 60%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001170.png: Predicted in 0.225989 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001171.png: Predicted in 0.363612 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001172.png: Predicted in 0.249050 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001173.png: Predicted in 0.271389 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001174.png: Predicted in 0.236187 seconds.
+bicycle: 35%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001175.png: Predicted in 0.232605 seconds.
+bicycle: 29%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001176.png: Predicted in 0.296350 seconds.
+bicycle: 52%
+bicycle: 52%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001177.png: Predicted in 0.264113 seconds.
+bicycle: 73%
+bicycle: 40%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001178.png: Predicted in 0.354486 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001179.png: Predicted in 0.314310 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001180.png: Predicted in 0.280543 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001181.png: Predicted in 0.290656 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001182.png: Predicted in 0.391234 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001183.png: Predicted in 0.311233 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001184.png: Predicted in 0.296858 seconds.
+bicycle: 28%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001185.png: Predicted in 0.305164 seconds.
+bicycle: 33%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001186.png: Predicted in 0.252903 seconds.
+bicycle: 45%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001187.png: Predicted in 0.265149 seconds.
+bicycle: 59%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001188.png: Predicted in 0.249275 seconds.
+bicycle: 55%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001189.png: Predicted in 0.254844 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001190.png: Predicted in 0.245158 seconds.
+bicycle: 37%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001191.png: Predicted in 0.258068 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001192.png: Predicted in 0.257802 seconds.
+bicycle: 58%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001193.png: Predicted in 0.249627 seconds.
+bicycle: 56%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001194.png: Predicted in 0.237619 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001195.png: Predicted in 0.236531 seconds.
+bicycle: 30%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001196.png: Predicted in 0.239487 seconds.
+bicycle: 47%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001197.png: Predicted in 0.238917 seconds.
+bicycle: 53%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001198.png: Predicted in 0.242254 seconds.
+bicycle: 38%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001199.png: Predicted in 0.244327 seconds.
+bicycle: 42%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001200.png: Predicted in 0.242968 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001201.png: Predicted in 0.243505 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001202.png: Predicted in 0.237263 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001203.png: Predicted in 0.264209 seconds.
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001204.png: Predicted in 0.235776 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001205.png: Predicted in 0.255685 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001206.png: Predicted in 0.261115 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001207.png: Predicted in 0.251943 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001208.png: Predicted in 0.250431 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001209.png: Predicted in 0.254094 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001210.png: Predicted in 0.260316 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001211.png: Predicted in 0.282915 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001212.png: Predicted in 0.279498 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001213.png: Predicted in 0.296977 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001214.png: Predicted in 0.296997 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001215.png: Predicted in 0.287768 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001216.png: Predicted in 0.300584 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001217.png: Predicted in 0.292144 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001218.png: Predicted in 0.298513 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001219.png: Predicted in 0.299321 seconds.
+car_s: 91%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001220.png: Predicted in 0.287830 seconds.
+car_s: 93%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001221.png: Predicted in 0.276128 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001222.png: Predicted in 0.283270 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001223.png: Predicted in 0.285217 seconds.
+car_s: 94%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001224.png: Predicted in 0.280418 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001225.png: Predicted in 0.260602 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001226.png: Predicted in 0.264223 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001227.png: Predicted in 0.269134 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001228.png: Predicted in 0.261008 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001229.png: Predicted in 0.268594 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001230.png: Predicted in 0.279069 seconds.
+car_s: 99%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001231.png: Predicted in 0.276991 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001232.png: Predicted in 0.256853 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001233.png: Predicted in 0.281461 seconds.
+car_s: 98%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001234.png: Predicted in 0.262717 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001235.png: Predicted in 0.259982 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001236.png: Predicted in 0.275031 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001237.png: Predicted in 0.274811 seconds.
+car_s: 97%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001238.png: Predicted in 0.271134 seconds.
+car_s: 95%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001239.png: Predicted in 0.292313 seconds.
+car_s: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001240.png: Predicted in 0.263023 seconds.
+bicycle: 96%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001241.png: Predicted in 0.272739 seconds.
+bicycle: 54%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001242.png: Predicted in 0.279290 seconds.
+bicycle: 66%
+Enter Image Path: /home/nam/data/nam/16k/JPEGImages/001243.png: Predicted in 0.286885 seconds.
+bicycle: 62%
+Enter Image Path: 

@@ -1,0 +1,17 @@
+* opencv
+21 conv    256  3 x 3 / 1    20 x  20 x 384   ->    20 x  20 x 256 0.708 BF
+  22 conv     30  1 x 1 / 1    20 x  20 x 256   ->    20 x  20 x  30 0.006 BF
+  23 yolo
+Loading weights from list/2/yolov3-tiny_7100.weights...Done!
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(3.4.1-dev) /home/nam/install/opencv-3.4/modules/core/src/matrix_wrap.cpp:800: error: (-215:Assertion failed) (flags & FIXED_TYPE) != 0 in function 'type'
+https://github.com/pjreddie/darknet/issues/518
+
+** solved
+fix in [[darknet/examples/detector.c]]
+
+void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filename, float thresh,
+                   float hier_thresh, int dont_show, int ext_output, int save_labels)
+ # save_image(im, "predictions"); 
+
+

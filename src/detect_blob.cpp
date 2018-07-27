@@ -35,7 +35,7 @@ using namespace std;
 
 // const global variables
 const cv::Scalar SCALAR_BLACK = cv::Scalar(0.0, 0.0, 0.0);
-const cv::Scalar SCALAR_WHITE = cv::Scalar(255.0, 255.0, 255.0);
+const cv::Scalar SCALAR_WHITE = cv::Scalar((255.0, 255.0, 255.0));
 const cv::Scalar SCALAR_YELLOW = cv::Scalar(0.0, 255.0, 255.0);
 const cv::Scalar SCALAR_GREEN = cv::Scalar(0.0, 200.0, 0.0);
 const cv::Scalar SCALAR_RED = cv::Scalar(0.0, 0.0, 255.0);
@@ -236,7 +236,6 @@ void drawCarCountOnImage(int &carCountRight, cv::Mat &imgFrame2Copy) {
 
 
 image crop_blob(cv::Mat image_origin, cv::Rect rect){
-  std::cout<< "____________________________________________________________________" << endl;
   // cv::Rect * new_rect = new cv::Rect;
 
   cv::Rect roi;
@@ -250,15 +249,14 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
   roi.width = rect.width;
   roi.height = rect.height;
   if(rect.width < edge_square_max && (rect.x + edge_square_max) <= 1280)
-    roi.height = edge_square_max;
+    roi.width = edge_square_max;
   else if(rect.height < edge_square_max && (rect.y + edge_square_max) <= 720)
-    roi.width= edge_square_max;
+    roi.height= edge_square_max;
+  else{
+    cout << "cannot crop" <<endl;
+  }
 
-  cout << roi.height << "\t" << roi.width<< endl;
-  cout << roi.x << "\t" << roi.y<< endl;
-  cout << roi.height + roi.x<< "\t" << roi.width + roi.y<< endl;
-  // cv::Mat mat_crop = image_origin(rect); //crop in matrix
-
+  cout << roi.width << "\t" << roi.height<<endl;
   cv::Mat mat_crop = image_origin(roi); //crop in matrix
   image image_crop = crop_mat_to_image(mat_crop);
 
@@ -270,9 +268,9 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
 int main(int argc, char *argv[]) {
 
   string video;
-  char *datacfg = "list/obj.data";
-  char *cfgfile = "list/cpu_2_yolo.cfg";
-  char *weightfile = "list/cpu_2_yolo_50000.weights";
+  char *datacfg = "list/2/4k5.data";
+  char *cfgfile = "list/2/yolov3-tiny.cfg";
+  char *weightfile = "list/2/yolov3-tiny_7100.weights";
   float thresh = .5;
   float hier_thresh = 1.0;
   cv::VideoCapture capVideo;
@@ -284,7 +282,7 @@ int main(int argc, char *argv[]) {
 
   switch(argc){
   case 1:
-    video = "/home/nam/Videos/TruongKimDong2.mp4";
+    video = "/home/nam/Videos/test.mp4";
     break;
   case 2:
     video = argv[1];
@@ -452,8 +450,6 @@ int main(int argc, char *argv[]) {
       cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
     }
 
-    // if(blobs.back().currentBoundingRect.width < 100)
-    //   continue;
     //DONE: convert cv::Mat frame crop to image
     image crop_image = crop_blob(imgFrame2Copy, blobs.back().currentBoundingRect);
     cout << crop_image.w << "  "<< crop_image.h<< endl;
@@ -472,21 +468,15 @@ int main(int argc, char *argv[]) {
     // draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
 
     // cout << names[0] <<endl;
+    cout << "---------------------------------------------------" << endl;
     network_predict(net, X);
 
-    // detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, thresh, hier_thresh, 0, 1, &nboxes, letterbox);
     detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .8, hier_thresh, 0, 1, &nboxes, letterbox);
     if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
     int ext_output;
     draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
-    // save_image(crop_image, "output_image/predictions");
 
     show_image(crop_image, "predictions");
-
-    for (int i = 0; i < 10; ++i)
-      {
-        cout << X[i] << endl;
-      }
 
     drawCarCountOnImage(carCountRight, imgFrame2Copy);
 
@@ -501,7 +491,7 @@ int main(int argc, char *argv[]) {
     }
 
     else {
-      std::cout << "end of video\n";
+      cout << "end of video\n";
       break;
     }
 
