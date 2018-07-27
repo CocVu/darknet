@@ -118,6 +118,9 @@ BLOB_OBJ= $(BASIS_OBJ) Blob.o adapter.o detect_blob.o
 
 BLOB_OBJS = $(addprefix $(OBJDIR), $(BLOB_OBJ))
 
+CROP_OBJ= $(BASIS_OBJ) Blob.o blob_and_crop_image.o
+CROP_OBJS = $(addprefix $(OBJDIR), $(CROP_OBJ))
+
 DEPS = $(wildcard src/*.h) Makefile
 
 # obj/detect_blob.o: src/detect_blob.cpp
@@ -142,9 +145,16 @@ $(EXEC): $(DARKNETS)
 detect_blob: $(BLOB_OBJS)
 	$(CPP) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
+crop_blob: $(CROP_OBJS)
+	$(CPP) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+
 run_detec_blob:
 	make detect_blob -j4
 	./detect_blob
+
+run_blob_crop:
+	make crop_blob -j4
+	./crop_blob
 
 $(OBJDIR)%.o: %.c $(DEPS)
 	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@

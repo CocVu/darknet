@@ -1,5 +1,5 @@
 classes= 5
-train  = /home/nam/darknet/list/4k5.txt
-valid  =/home/nam/darknet/list/test.txt
+train  = /home/nam/darknet/list/2/4k5.txt
+valid  =/home/nam/darknet/list/2/test.txt
 names = /home/nam/darknet/list/obj.names
 backup = /home/nam/checkpoint/4k5
