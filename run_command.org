@@ -1,0 +1,6 @@
+* Write text file
+
+make -j4  &&
+
+./darknet detector write list/2/4k5.data list/2/cpu_2layer_yolo_4k5_320x320.cfg
+list/2/cpu_2layer_yolo_4k5_320x320_6000.weights < ./data/1245_TruongKimDong.list
