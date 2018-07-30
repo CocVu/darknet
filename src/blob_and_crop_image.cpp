@@ -375,7 +375,7 @@ int main(int argc, char *argv[]) {
     //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
     // }
 
-    //TODO: crop blob image
+    //DONE: crop blob image
     crop_image_by_blob(imgFrame2Copy, "output_image_crop/", blobs , &idx_image);
 
     // drawCarCountOnImage(carCountRight, imgFrame2Copy);

@@ -1146,11 +1146,11 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
     }
 
     // pseudo labeling concept - fast.ai
-    if(save_labels || 1)
+    if(save_labels)
       {
         char labelpath[4096];
         replace_image_to_label(input, labelpath);
-
+        printf("%s\n", labelpath);
         FILE* fw = fopen(labelpath, "wb");
         /* FILE* fw = fopen(output, "wb"); */
         int i;
@@ -1293,7 +1293,7 @@ void write_txt_test_detector(char *datacfg, char *cfgfile, char *weightfile, cha
     /* printf("%s\n", c_output); */
     // TODO: write image
     printf("%s\n", output);
-    if(true)
+    if(save_labels)
     {
       /* const char* c_output=&output; */
       FILE* fw = fopen(c_output, "wb");
@@ -1315,6 +1315,7 @@ void write_txt_test_detector(char *datacfg, char *cfgfile, char *weightfile, cha
         }
 
       fclose(fw);
+      /* free(fw); */
     }
     }
 
@@ -1330,6 +1331,7 @@ void write_txt_test_detector(char *datacfg, char *cfgfile, char *weightfile, cha
     }
 #endif
     if (filename) break;
+
   }
 
   // free memory
@@ -1406,7 +1408,8 @@ void run_detector(int argc, char **argv)
       if (weights[strlen(weights) - 1] == 0x0d) weights[strlen(weights) - 1] = 0;
   char *filename = (argc > 6) ? argv[6]: 0;
   if(0==strcmp(argv[2], "test")) test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh, dont_show, ext_output, save_labels);
-  if(0==strcmp(argv[2], "write_txt")) write_txt_test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh, dont_show, ext_output, save_labels);
+  if(0==strcmp(argv[2], "write")) test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh, dont_show, ext_output, 1);
+  /* if(0==strcmp(argv[2], "write_txt")) write_txt_test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh, dont_show, ext_output, 1); */
 #ifdef OPENCV
   /* else if(0==strcmp(argv[2], "blob")) blob_detector(datacfg, cfg, weights, filename, thresh, hier_thresh, dont_show, ext_output, save_labels); */
 #endif
