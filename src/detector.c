@@ -81,6 +81,7 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
   int classes = l.classes;
   float jitter = l.jitter;
 
+  // load train img in train.txt include all image
   list *plist = get_paths(train_images);
   //int N = plist->size;
   char **paths = (char **)list_to_array(plist);
@@ -157,6 +158,7 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
       }
       net = nets[0];
     }
+
     time=what_time_is_it_now();
     pthread_join(load_thread, 0);
     train = buffer;

@@ -148,7 +148,7 @@ detect_blob: $(BLOB_OBJS)
 crop_blob: $(CROP_OBJS)
 	$(CPP) $(COMMON) $(CFLAGS) $^ -o $@ $(LDFLAGS)
 
-run_detec_blob:
+run_detect_blob:
 	make detect_blob -j4
 	./detect_blob
 

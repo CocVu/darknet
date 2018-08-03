@@ -167,7 +167,8 @@ bool checkIfBlobsCrossedTheLineLeft(std::vector<Blob> &blobs, int &intHorizontal
         blnAtLeastOneBlobCrossedTheLineLeft = true;
       }
     }
-  }
+  
+}
 
   return blnAtLeastOneBlobCrossedTheLineLeft;
 }
@@ -207,7 +208,7 @@ void crop_image_by_blob(cv::Mat imgFrame2Copy,string  output_file_contain_image,
   (*idx_image)++;
   char buffer[256]; sprintf(buffer, "%06d", *idx_image);
   string str(buffer);
-  string out_image_name  = output_file_contain_image + buffer +".png";
+  string out_image_name  = output_file_contain_image + buffer +".jpg";
   cv::Mat crop = imgFrame2Copy(blobs.back().currentBoundingRect);
   cv::imwrite(out_image_name, crop);
   // cv::imshow(out_image_name, crop);
@@ -216,6 +217,8 @@ void crop_image_by_blob(cv::Mat imgFrame2Copy,string  output_file_contain_image,
 int main(int argc, char *argv[]) {
   int idx_image = 0;
   int n_crop_image = 0;
+  int max_crop_img = 0;
+  int offset_skip = 1;
   string video;
   cv::VideoCapture capVideo;
   cv::Mat imgFrame1;
@@ -226,7 +229,7 @@ int main(int argc, char *argv[]) {
 
   switch(argc){
   case 1:
-    video = "/home/nam/Videos/test.mp4";
+    video = "/home/nam/Videos/TruongKimDong2.mp4";
     break;
   case 2:
     video = argv[1];
@@ -234,6 +237,17 @@ int main(int argc, char *argv[]) {
   case 3:
     video = argv[1];
     min_blob_area = atoi(argv[2]);
+    break;
+  case 4:
+    video = argv[1];
+    min_blob_area = atoi(argv[2]);
+    max_crop_img = atoi(argv[3]);
+    break;
+  case 5:
+    video = argv[1];
+    min_blob_area = atoi(argv[2]);
+    max_crop_img = atoi(argv[3]);
+    offset_skip = atoi(argv[4]);
     break;
   default :
     break;
@@ -287,7 +301,7 @@ int main(int argc, char *argv[]) {
     cv::absdiff(imgFrame1Copy, imgFrame2Copy, imgDifference);
     cv::threshold(imgDifference, imgThresh, 30, 255.0, CV_THRESH_BINARY);
 
-    cv::imshow("imgThresh", imgThresh);
+    // cv::imshow("imgThresh", imgThresh);
     cv::Mat structuringElement3x3 = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(3, 3));
     cv::Mat structuringElement5x5 = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(5, 5));
     cv::Mat structuringElement7x7 = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(7, 7));
@@ -350,10 +364,6 @@ int main(int argc, char *argv[]) {
 
     imgFrame2Copy = imgFrame2.clone();	// get another copy of frame 2 since we changed the previous frame 2 copy in the processing above
 
-    // draw red rectangle on imgFrame2Copy
-
-    // drawBlobInfoOnImage(blobs, imgFrame2Copy);
-
     // Check the rightWay
     bool blnAtLeastOneBlobCrossedTheLine = checkIfBlobsCrossedTheLineRight(blobs, intHorizontalLinePosition, carCountRight);
     // Check the leftWay
@@ -376,7 +386,17 @@ int main(int argc, char *argv[]) {
     // }
 
     //DONE: crop blob image
-    crop_image_by_blob(imgFrame2Copy, "output_image_crop/", blobs , &idx_image);
+    if (blobs.back().currentBoundingRect.y > 200 && blobs.back().currentBoundingRect.area() > min_blob_area && ((n_crop_image % offset_skip) ==0)) {
+      if (idx_image > max_crop_img) {
+        return 0;
+      }
+      crop_image_by_blob(imgFrame2Copy, "output_image_crop/", blobs , &idx_image);
+      cout << idx_image <<"\t" <<  blobs.back().currentBoundingRect.area()<< endl;
+    }
+    n_crop_image++;
+    // draw red rectangle on imgFrame2Copy
+
+    drawBlobInfoOnImage(blobs, imgFrame2Copy);
 
     // drawCarCountOnImage(carCountRight, imgFrame2Copy);
 

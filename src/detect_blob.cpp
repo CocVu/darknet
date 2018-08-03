@@ -243,20 +243,19 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
   if(rect.width < rect.height)
     edge_square_max = rect.height;
 
-  //DONE: square scale rect.x + max(width ...) <= 1280 and height <= 720
   roi.x = rect.x;
   roi.y = rect.y;
   roi.width = rect.width;
   roi.height = rect.height;
-  if(rect.width < edge_square_max && (rect.x + edge_square_max) <= 1280)
-    roi.width = edge_square_max;
-  else if(rect.height < edge_square_max && (rect.y + edge_square_max) <= 720)
-    roi.height= edge_square_max;
-  else{
-    cout << "cannot crop" <<endl;
-  }
+  //DONE: square scale rect.x + max(width ...) <= 1280 and height <= 720
+  // if(rect.width < edge_square_max && (rect.x + edge_square_max) <= 1280)
+  //   roi.width = edge_square_max;
+  // else if(rect.height < edge_square_max && (rect.y + edge_square_max) <= 720)
+  //   roi.height= edge_square_max;
+  // else{
+  //   cout << "cannot crop" <<endl;
+  // }
 
-  cout << roi.width << "\t" << roi.height<<endl;
   cv::Mat mat_crop = image_origin(roi); //crop in matrix
   image image_crop = crop_mat_to_image(mat_crop);
 
@@ -268,10 +267,10 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
 int main(int argc, char *argv[]) {
 
   string video;
-  char *datacfg = "list/2/4k5.data";
-  char *cfgfile = "list/2/yolov3-tiny.cfg";
-  char *weightfile = "list/2/yolov3-tiny_7100.weights";
-  float thresh = .5;
+  char *datacfg = "/home/nam/checkpoint/6/11k.data";
+  char *cfgfile = "/home/nam/checkpoint/6/cpu_2_yolo.cfg";
+  char *weightfile = "/home/nam/checkpoint/6/cpu_2_yolo_20000.weights";
+  float thresh = .8;
   float hier_thresh = 1.0;
   cv::VideoCapture capVideo;
   cv::Mat imgFrame1;
@@ -331,6 +330,7 @@ int main(int argc, char *argv[]) {
   char *name_list = option_find_str(options, "names", "data/names.list");
   int names_size = 0;
   char **names = get_labels_custom(name_list, &names_size); //get_labels(name_list);
+  //load from data/labels/%d_%d.png
   image **alphabet = load_alphabet();
 
   network net = parse_network_cfg_custom(cfgfile, 1); // set batch=1
@@ -378,7 +378,7 @@ int main(int argc, char *argv[]) {
     std::vector<std::vector<cv::Point> > contours;
     cv::findContours(imgThreshCopy, contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
 
-    drawAndShowContours(imgThresh.size(), contours, "imgContours");
+    // drawAndShowContours(imgThresh.size(), contours, "imgContours");
 
     std::vector<std::vector<cv::Point> > convexHulls(contours.size());
 
@@ -386,7 +386,7 @@ int main(int argc, char *argv[]) {
       cv::convexHull(contours[i], convexHulls[i]);
     }
 
-    drawAndShowContours(imgThresh.size(), convexHulls, "imgConvexHulls");
+    // drawAndShowContours(imgThresh.size(), convexHulls, "imgConvexHulls");
 
     // std::cout << convexHulls.size();
     // printf("%d", convexHulls.size());
@@ -405,7 +405,7 @@ int main(int argc, char *argv[]) {
       }
     }
 
-    drawAndShowContours(imgThresh.size(), currentFrameBlobs, "imgCurrentFrameBlobs");
+    // drawAndShowContours(imgThresh.size(), currentFrameBlobs, "imgCurrentFrameBlobs");
 
     if (blnFirstFrame == true) {
       for (auto &currentFrameBlob : currentFrameBlobs) {
@@ -417,7 +417,7 @@ int main(int argc, char *argv[]) {
       matchCurrentFrameBlobsToExistingBlobs(blobs, currentFrameBlobs);
     }
 
-    drawAndShowContours(imgThresh.size(), blobs, "imgBlobs");
+    // drawAndShowContours(imgThresh.size(), blobs, "imgBlobs");
 
     // cout << blobs.size();
     // std::cout << blobs[1].currentBoundingRect<< endl;
@@ -425,36 +425,33 @@ int main(int argc, char *argv[]) {
 
     imgFrame2Copy = imgFrame2.clone();	// get another copy of frame 2 since we changed the previous frame 2 copy in the processing above
 
-    // draw red rectangle on imgFrame2Copy
-
-    // drawBlobInfoOnImage(blobs, imgFrame2Copy);
 
     // Check the rightWay
     bool blnAtLeastOneBlobCrossedTheLine = checkIfBlobsCrossedTheLineRight(blobs, intHorizontalLinePosition, carCountRight);
     // Check the leftWay
     bool blnAtLeastOneBlobCrossedTheLineLeft = checkIfBlobsCrossedTheLineLeft(blobs, intHorizontalLinePosition, carCountLeft);
 
-    //rightWay
-    if (blnAtLeastOneBlobCrossedTheLine == true) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
-    }
-    else if (blnAtLeastOneBlobCrossedTheLine == false) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
-    }
+    // //rightWay draw line
+    // if (blnAtLeastOneBlobCrossedTheLine == true) {
+    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
+    // }
+    // else if (blnAtLeastOneBlobCrossedTheLine == false) {
+    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
+    // }
 
-    //leftway
-    if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
-    }
-    else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
-    }
+    // //leftway draw line
+    // if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
+    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
+    // }
+    // else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
+    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
+    // }
 
     //DONE: convert cv::Mat frame crop to image
     image crop_image = crop_blob(imgFrame2Copy, blobs.back().currentBoundingRect);
-    cout << crop_image.w << "  "<< crop_image.h<< endl;
     image sized = resize_image(crop_image, net.w, net.h);
     // last layer in config file
+    // l.classes = 5 total classes in layer;
     layer l = net.layers[net.n-1];
 
     float nms=.45;	// 0.4F
@@ -463,22 +460,28 @@ int main(int argc, char *argv[]) {
 
     int nboxes = 0;
 
-    // l.classes = 5 total classes in layer;
 
     // draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
 
-    // cout << names[0] <<endl;
     cout << "---------------------------------------------------" << endl;
     network_predict(net, X);
 
+    //get result number nboxes: number of box in dets return
     detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .8, hier_thresh, 0, 1, &nboxes, letterbox);
     if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
-    int ext_output;
-    draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
+
+    // draw names on image: motobike bicycle
+    // int ext_output; print %s rectangle
+
+    /* detection_with_class* get_actual_detections(detection *dets, int dets_num, float thresh, int* selected_detections_num) */
+    draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, 1 /* ext_output*/);
 
     show_image(crop_image, "predictions");
 
-    drawCarCountOnImage(carCountRight, imgFrame2Copy);
+    // draw red rectangle on imgFrame2Copy
+    drawBlobInfoOnImage(blobs, imgFrame2Copy);
+
+    // drawCarCountOnImage(carCountRight, imgFrame2Copy);
 
     cv::imshow("imgFrame2Copy", imgFrame2Copy);
 

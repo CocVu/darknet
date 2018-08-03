@@ -25,7 +25,7 @@ typedef struct{
 
 typedef struct detection {
 	box bbox;
-	int classes;
+	int classes; //number of class: 5 example 80 in VOC
 	float *prob;
 	float *mask;
 	float objectness;

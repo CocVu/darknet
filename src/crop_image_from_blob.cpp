@@ -395,23 +395,23 @@ int main(int argc, char *argv[]) {
     // Check the leftWay
     bool blnAtLeastOneBlobCrossedTheLineLeft = checkIfBlobsCrossedTheLineLeft(blobs, intHorizontalLinePosition, carCountLeft);
 
-    //rightWay
-    if (blnAtLeastOneBlobCrossedTheLine == true) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
-    }
-    else if (blnAtLeastOneBlobCrossedTheLine == false) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
-    }
+    // //rightWay
+    // if (blnAtLeastOneBlobCrossedTheLine == true) {
+    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
+    // }
+    // else if (blnAtLeastOneBlobCrossedTheLine == false) {
+    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
+    // }
 
-    //leftway
-    if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
-    }
-    else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
-    }
+    // //leftway
+    // if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
+    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
+    // }
+    // else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
+    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
+    // }
 
-    drawCarCountOnImage(carCountRight, imgFrame2Copy);
+    // drawCarCountOnImage(carCountRight, imgFrame2Copy);
 
     cv::imshow("imgFrame2Copy", imgFrame2Copy);
 

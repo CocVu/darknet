@@ -1,0 +1,32 @@
+b detect_blob.cpp:467
+b detect_blob.cpp:467
+
+l detect_blob.cpp:450
+
+* Describe
+$7 = {bbox = {x = 0.818758309, y = 0.557300866, w = 0.308162063, h = 0.689232171}, classes = 5, prob = 0x5555558940c0, mask = 0x0, objectness = 0.938220859, 
+  sort_class = 4}
+(gdb) p dets[0]
+$8 = {bbox = {x = 0.796475828, y = 0.680377364, w = 0.284529418, h = 0.605968535}, classes = 5, prob = 0x555556ef48e0, mask = 0x0, objectness = 0.974781632, 
+  sort_class = 4}
+(gdb) p dets[0].prob[1]
+$9 = 0
+(gdb) p dets[0].prob[2]
+$10 = 0
+(gdb) p dets[0].prob[0]
+$11 = 0.96138227
+(gdb) p dets[1].prob[0]
+$12 = 0
+(gdb) p dets[1].prob[1]
+$13 = 0
+(gdb) p dets[1].prob[2]
+$14 = 0
+(gdb) p dets[1].prob[0]
+$15 = 0
+(gdb) c
+Continuing.
+motorbike: 96%	(left_x:   53   top_y:   27   width:   23   height:   43)
+---------------------------------------------------
+
+
+nboxes : number of 
