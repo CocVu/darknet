@@ -267,9 +267,11 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
 int main(int argc, char *argv[]) {
 
   string video;
-  char *datacfg = "/home/nam/checkpoint/6/11k.data";
-  char *cfgfile = "/home/nam/checkpoint/6/cpu_2_yolo.cfg";
-  char *weightfile = "/home/nam/checkpoint/6/cpu_2_yolo_20000.weights";
+  int min_blob_area = 400;
+  char *datacfg = "/home/nam/darknet/list/6/11k.data";
+  char *cfgfile = "/home/nam/darknet/list/6/cpu_2_yolo.cfg";
+  char *weightfile = "/home/nam/darknet/list/6/cpu_2_yolo_500000.weights";
+
   float thresh = .8;
   float hier_thresh = 1.0;
   cv::VideoCapture capVideo;
@@ -279,16 +281,14 @@ int main(int argc, char *argv[]) {
   cv::Point crossingLine[2];
   cv::Point crossingLineLeft[2];
 
+  float p = find_float_arg(argc, argv, "-thresh_prediction", .5);
+  min_blob_area  = find_arg(argc, argv, "-min_blob_area");
   switch(argc){
   case 1:
     video = "/home/nam/Videos/test.mp4";
     break;
   case 2:
     video = argv[1];
-    break;
-  case 3:
-    video = argv[1];
-    min_blob_area = atoi(argv[2]);
     break;
   default :
     break;
@@ -346,7 +346,9 @@ int main(int argc, char *argv[]) {
   }
 
   while (capVideo.isOpened() && chCheckForEscKey != 27 && chCheckForEscKey !='q') {
-
+    if(chCheckForEscKey == 'p'){
+         while(cv::waitKey(1) != 'p');
+    }
     int letterbox = 0;
     std::vector<Blob> currentFrameBlobs;
     cv::Mat imgFrame1Copy = imgFrame1.clone();
@@ -467,15 +469,18 @@ int main(int argc, char *argv[]) {
     network_predict(net, X);
 
     //get result number nboxes: number of box in dets return
-    detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .8, hier_thresh, 0, 1, &nboxes, letterbox);
+    detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .7, hier_thresh, 0, 1, &nboxes, letterbox);
     if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
 
     // draw names on image: motobike bicycle
     // int ext_output; print %s rectangle
 
     /* detection_with_class* get_actual_detections(detection *dets, int dets_num, float thresh, int* selected_detections_num) */
+    // TODO  : get dets info b 477 if nboxes > 0
     draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, 1 /* ext_output*/);
 
+    // TODO : convert data
+    convert_image_to_cvMat(crop_image, imgFrame2Copy, blobs.back().currentBoundingRect.x,blobs.back().currentBoundingRect.y);
     show_image(crop_image, "predictions");
 
     // draw red rectangle on imgFrame2Copy

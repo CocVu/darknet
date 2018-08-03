@@ -30,3 +30,27 @@ motorbike: 96%	(left_x:   53   top_y:   27   width:   23   height:   43)
 
 
 nboxes : number of 
+
+* Command
+
+b detect_blob.cpp:467
+
+b detect_blob.cpp:467
+
+l detect_blob.cpp:477
+
+
+
+
+b 471 if nboxes > 5
+p nboxes
+p dets[0]
+p *dets[0].prob
+p *dets[1].prob
+p *dets[2].prob
+p *dets[3].prob
+p *dets[4].prob
+
+* print array
+p *crop_image.data@2888
+for 

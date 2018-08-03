@@ -154,13 +154,13 @@ run_detect_blob:
 
 run_blob_crop:
 	make crop_blob -j4
-	./crop_blob
+	./crop_blob ~/Videos/ngo-may-2.mp4 1000 10000 5
 
 $(OBJDIR)%.o: %.c $(DEPS)
 	$(CC) $(COMMON) $(CFLAGS) -c $< -o $@
 
 # obj/Blob.o: src/Blob.cpp
-# 	g++ -o obj/Blob.o src/Blob.cpp -c `pkg-config opencv --cflags --libs`
+#		g++ -o obj/Blob.o src/Blob.cpp -c `pkg-config opencv --cflags --libs`
 
 $(OBJDIR)%.o: %.cpp $(DEPS)
 	$(CPP)  -std=c++11 $(COMMON) $(CFLAGS) -c $< -o $@
