@@ -9784,7 +9784,6 @@
 /home/nam/Dropbox/data_vehicle/CAn_P_Xuan_Ha_2_20180731_3k5/JPEGImages/001391.jpg
 /home/nam/Dropbox/data_vehicle/CAn_P_Xuan_Ha_2_20180731_3k5/JPEGImages/002158.jpg
 /home/nam/Dropbox/data_vehicle/CAn_P_Xuan_Ha_2_20180731_3k5/JPEGImages/000781.jpg
-/home/nam/Dropbox/data_vehicle/readlink_all_jpg.sh
 /home/nam/Dropbox/data_vehicle/TruongNguyenLuongBang_1k/JPEGImages/000140.jpg
 /home/nam/Dropbox/data_vehicle/TruongNguyenLuongBang_1k/JPEGImages/000285.jpg
 /home/nam/Dropbox/data_vehicle/TruongNguyenLuongBang_1k/JPEGImages/000767.jpg
