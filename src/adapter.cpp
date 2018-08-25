@@ -31,27 +31,27 @@ image convert_ipl_to_image(IplImage* src){
   return out;
 }
 
-void convert_image_to_cvMat(image src, cv::Mat big_picture, int x , int y){
-  // unsigned char *data = (unsigned char *)src->imageData;
+// image ipl_to_image(IplImage* src) // image.c:937
+void draw_image_to_cvMat(image src, cv::Mat big_picture, int x , int y){
   int h = src.h;
   int w = src.w;
   int c = src.c;
-  // int step = src->widthStep;
   image out = make_image(w, h, c);
   int i, j, k, count=0;;
-
+  unsigned char tmp_val;
   for(k= 0; k < c; ++k){
     for(i = 0; i < h; ++i){
       for(j = 0; j < w; ++j){
-        // TODO: exept for 256 or -1
-        // -big_picture.at<int>( i*step + j*c + k ) = (int)(src.data[count++]*255);
-        // big_picture.at<int>(y + i , x + j*c + k ) =0;
-        big_picture.at<float>(y + i , x + k*c + j) =0;
-        // (int)(src.data[count++]*255);
+        // DONE: Convert RGB to gray
+        tmp_val = (unsigned char)(src.data[count++]*255);
+
+        // for 3 channels
+        big_picture.at<unsigned char>(y + i ,(x + k+ j)*c ) = tmp_val;
+        big_picture.at<unsigned char>(y + i ,(x + k+ j)*c +1 ) = tmp_val;
+        big_picture.at<unsigned char>(y + i ,(x + k+ j)*c +2 ) = tmp_val;
       }
     }
   }
-  // return data;
 }
 
 image crop_mat_to_image(cv::Mat mat_crop)

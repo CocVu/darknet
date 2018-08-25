@@ -268,9 +268,9 @@ int main(int argc, char *argv[]) {
 
   string video;
   int min_blob_area = 400;
-  char *datacfg = "/home/nam/darknet/list/6/11k.data";
-  char *cfgfile = "/home/nam/darknet/list/6/cpu_2_yolo.cfg";
-  char *weightfile = "/home/nam/darknet/list/6/cpu_2_yolo_500000.weights";
+  char *datacfg = "/home/nam/darknet/list/7/11k.data";
+  char *cfgfile = "/home/nam/darknet/list/7/cpu_2_layer_yolo.cfg";
+  char *weightfile = "/home/nam/darknet/list/7/cpu_2_layer_yolo_386400.weights";
 
   float thresh = .8;
   float hier_thresh = 1.0;
@@ -285,7 +285,7 @@ int main(int argc, char *argv[]) {
   min_blob_area  = find_arg(argc, argv, "-min_blob_area");
   switch(argc){
   case 1:
-    video = "/home/nam/Videos/test.mp4";
+    video = "/home/nam/Videos/TruongKimDong2.mp4";
     break;
   case 2:
     video = argv[1];
@@ -347,7 +347,7 @@ int main(int argc, char *argv[]) {
 
   while (capVideo.isOpened() && chCheckForEscKey != 27 && chCheckForEscKey !='q') {
     if(chCheckForEscKey == 'p'){
-         while(cv::waitKey(1) != 'p');
+      while(cv::waitKey(1) != 'p');
     }
     int letterbox = 0;
     std::vector<Blob> currentFrameBlobs;
@@ -433,25 +433,26 @@ int main(int argc, char *argv[]) {
     // Check the leftWay
     bool blnAtLeastOneBlobCrossedTheLineLeft = checkIfBlobsCrossedTheLineLeft(blobs, intHorizontalLinePosition, carCountLeft);
 
-    // //rightWay draw line
-    // if (blnAtLeastOneBlobCrossedTheLine == true) {
-    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
-    // }
-    // else if (blnAtLeastOneBlobCrossedTheLine == false) {
-    //   cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
-    // }
+    //rightWay draw line
+    if (blnAtLeastOneBlobCrossedTheLine == true) {
+      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
+    }
+    else if (blnAtLeastOneBlobCrossedTheLine == false) {
+      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
+    }
 
-    // //leftway draw line
-    // if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
-    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
-    // }
-    // else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
-    //   cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
-    // }
+    //leftway draw line
+    if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
+      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
+    }
+    else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
+      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
+    }
 
     //DONE: convert cv::Mat frame crop to image
     image crop_image = crop_blob(imgFrame2Copy, blobs.back().currentBoundingRect);
     image sized = resize_image(crop_image, net.w, net.h);
+
     // last layer in config file
     // l.classes = 5 total classes in layer;
     layer l = net.layers[net.n-1];
@@ -476,17 +477,17 @@ int main(int argc, char *argv[]) {
     // int ext_output; print %s rectangle
 
     /* detection_with_class* get_actual_detections(detection *dets, int dets_num, float thresh, int* selected_detections_num) */
-    // TODO  : get dets info b 477 if nboxes > 0
+    // DONE  : get dets info b 477 if nboxes > 0
     draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, 1 /* ext_output*/);
 
-    // TODO : convert data
-    convert_image_to_cvMat(crop_image, imgFrame2Copy, blobs.back().currentBoundingRect.x,blobs.back().currentBoundingRect.y);
+    // DONE : draw darknet into blob detection
+    draw_image_to_cvMat(crop_image, imgFrame2Copy, blobs.back().currentBoundingRect.x,blobs.back().currentBoundingRect.y);
     show_image(crop_image, "predictions");
 
     // draw red rectangle on imgFrame2Copy
     drawBlobInfoOnImage(blobs, imgFrame2Copy);
 
-    // drawCarCountOnImage(carCountRight, imgFrame2Copy);
+    drawCarCountOnImage(carCountRight, imgFrame2Copy);
 
     cv::imshow("imgFrame2Copy", imgFrame2Copy);
 

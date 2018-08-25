@@ -1,5 +1,6 @@
 #include "Blob.h"
 
+// instructor
 Blob::Blob(std::vector<cv::Point> _contour) {
     currentContour = _contour;
     currentBoundingRect = cv::boundingRect(currentContour);
@@ -19,7 +20,6 @@ Blob::Blob(std::vector<cv::Point> _contour) {
 
     intNumOfConsecutiveFramesWithoutAMatch = 0;
 }
-
 
 void Blob::predictNextPosition(void) {
     int numPositions = (int)centerPositions.size();

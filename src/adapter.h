@@ -14,8 +14,7 @@ image crop_mat_to_image(cv::Mat mat_crop);
 
 image convert_ipl_to_image(IplImage* src);
 
-/* void convert_image_to_ipl(image src, cv::Mat big_picture, int x , int y); */
-void convert_image_to_cvMat(image src, cv::Mat big_picture, int x , int y);
+/* void convert_image_to_ipl(image src, cv::Mat big_picture, int x , int y); //image.c*/
+void draw_image_to_cvMat(image src, cv::Mat big_picture, int x , int y);
 
-/* image convert_image_to_ipl(Image src, cv:Mat big_picture, int x , int y){ */
 /* #endif */
