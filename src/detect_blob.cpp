@@ -208,13 +208,13 @@ bool checkIfBlobsCrossedTheLineLeft(std::vector<Blob> &blobs, int &intHorizontal
 void drawBlobInfoOnImage(std::vector<Blob> &blobs, cv::Mat &imgFrame2Copy) {
   for (unsigned int i = 0; i < blobs.size(); i++) {
     if (blobs[i].blnStillBeingTracked == true) {
-      cv::rectangle(imgFrame2Copy, blobs[i].currentBoundingRect, SCALAR_RED, 2);
+      cv::rectangle(imgFrame2Copy, blobs[i].currentBoundingRect, SCALAR_RED, 1);
 
       int intFontFace = CV_FONT_HERSHEY_SIMPLEX;
       double dblFontScale = (imgFrame2Copy.rows * imgFrame2Copy.cols) / 300000.0;
       int intFontThickness = (int)::round(dblFontScale * 1.0);
 
-      cv::putText(imgFrame2Copy, std::to_string(i), blobs[i].centerPositions.back(), intFontFace, dblFontScale, SCALAR_GREEN, intFontThickness);
+      // cv::putText(imgFrame2Copy, std::to_string(i), blobs[i].centerPositions.back(), intFontFace, dblFontScale, SCALAR_GREEN, intFontThickness);
     }
   }
 }
@@ -247,6 +247,7 @@ image crop_blob(cv::Mat image_origin, cv::Rect rect){
   roi.y = rect.y;
   roi.width = rect.width;
   roi.height = rect.height;
+
   //DONE: square scale rect.x + max(width ...) <= 1280 and height <= 720
   // if(rect.width < edge_square_max && (rect.x + edge_square_max) <= 1280)
   //   roi.width = edge_square_max;
@@ -272,7 +273,7 @@ int main(int argc, char *argv[]) {
   char *cfgfile = "/home/nam/darknet/list/7/cpu_2_layer_yolo.cfg";
   char *weightfile = "/home/nam/darknet/list/7/cpu_2_layer_yolo_386400.weights";
 
-  float thresh = .8;
+  float thresh = .9;
   float hier_thresh = 1.0;
   cv::VideoCapture capVideo;
   cv::Mat imgFrame1;
@@ -280,6 +281,10 @@ int main(int argc, char *argv[]) {
   std::vector<Blob> blobs;
   cv::Point crossingLine[2];
   cv::Point crossingLineLeft[2];
+
+  int intFontFace = CV_FONT_HERSHEY_SIMPLEX;
+  double dblFontScale = 1;
+  int intFontThickness = (int)::round(dblFontScale * 2.5);
 
   float p = find_float_arg(argc, argv, "-thresh_prediction", .5);
   min_blob_area  = find_arg(argc, argv, "-min_blob_area");
@@ -332,8 +337,8 @@ int main(int argc, char *argv[]) {
   char **names = get_labels_custom(name_list, &names_size); //get_labels(name_list);
   //load from data/labels/%d_%d.png
   image **alphabet = load_alphabet();
-
   network net = parse_network_cfg_custom(cfgfile, 1); // set batch=1
+
   if(weightfile){
     load_weights(&net, weightfile);
   }
@@ -344,6 +349,7 @@ int main(int argc, char *argv[]) {
            name_list, names_size, net.layers[net.n - 1].classes, cfgfile);
     if(net.layers[net.n - 1].classes > names_size) getchar();
   }
+  layer l = net.layers[net.n-1];
 
   while (capVideo.isOpened() && chCheckForEscKey != 27 && chCheckForEscKey !='q') {
     if(chCheckForEscKey == 'p'){
@@ -426,68 +432,81 @@ int main(int argc, char *argv[]) {
 
 
     imgFrame2Copy = imgFrame2.clone();	// get another copy of frame 2 since we changed the previous frame 2 copy in the processing above
+    int total_object_in_blob;
+    int list_best_labels[100];
+    int list_x_labels[100];
+    int list_y_labels[100];
+    int list_w_labels[100];
+    int list_h_labels[100];
 
 
-    // Check the rightWay
-    bool blnAtLeastOneBlobCrossedTheLine = checkIfBlobsCrossedTheLineRight(blobs, intHorizontalLinePosition, carCountRight);
-    // Check the leftWay
-    bool blnAtLeastOneBlobCrossedTheLineLeft = checkIfBlobsCrossedTheLineLeft(blobs, intHorizontalLinePosition, carCountLeft);
+    for (int i = 0; i < blobs.size(); ++i) {
 
-    //rightWay draw line
-    if (blnAtLeastOneBlobCrossedTheLine == true) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_GREEN, 2);
+      if (blobs[i].blnStillBeingTracked == false)
+        continue;
+      Blob current_blob = blobs[i];
+
+      if(blobs[i].current_blob_single_name){
+        cv::putText(imgFrame2Copy, blobs[i].current_blob_single_name, cv::Point(current_blob.currentBoundingRect.x ,current_blob.currentBoundingRect.y ), intFontFace, dblFontScale, SCALAR_GREEN, 2);
+      continue;
     }
-    else if (blnAtLeastOneBlobCrossedTheLine == false) {
-      cv::line(imgFrame2Copy, crossingLine[0], crossingLine[1], SCALAR_RED, 2);
+      //DONE: convert cv::Mat frame crop to image
+      image crop_image = crop_blob(imgFrame2Copy, blobs[i].currentBoundingRect);
+      image sized = resize_image(crop_image, net.w, net.h);
+
+      // last layer in config file
+      // l.classes = 5 total classes in layer;
+      float nms=.45;	// 0.4F
+
+      float *X = sized.data;
+
+      int nboxes = 0;
+
+
+      // draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
+
+      cout << "---------------------------------------------------" << endl;
+      cout << blobs.size() <<endl;
+      network_predict(net, X);
+
+      //get result number nboxes: number of box in dets return
+      detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .7, hier_thresh, 0, 1, &nboxes, letterbox);
+      if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
+
+      // draw names on image: motobike bicycle
+      // int ext_output; print %s rectangle
+
+      /* detection_with_class* get_actual_detections(detection *dets, int dets_num, float thresh, int* selected_detections_num) */
+      // DONE  : get dets info b 477 if nboxes > 0
+      // draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, 1 /* ext_output*/);
+      // DONE : draw darknet into blob detection
+      // draw_image_to_cvMat(crop_image, imgFrame2Copy, blobs[i].currentBoundingRect.x,blobs[i].currentBoundingRect.y);
+
+      show_image(crop_image, "predictions");
+      // get_label_object(list_best_labels, list_x_labels, list_y_labels, &total_object_in_blob,  dets, nboxes, thresh, names);
+
+      get_label_object(current_blob.currentBoundingRect.width,current_blob.currentBoundingRect.height, list_best_labels,list_x_labels, list_y_labels,list_w_labels, list_h_labels, &total_object_in_blob,  dets, nboxes, thresh, names);
+      for (int j = 0; j < total_object_in_blob; ++j) {
+        cv::putText(imgFrame2Copy, names[list_best_labels[j]], cv::Point(current_blob.currentBoundingRect.x + list_x_labels[j],current_blob.currentBoundingRect.y + list_y_labels[j]), intFontFace, dblFontScale, SCALAR_GREEN, 2);
+
+        cv::rectangle(imgFrame2Copy,
+                      cv::Point(current_blob.currentBoundingRect.x + list_x_labels[j],current_blob.currentBoundingRect.y),
+                      cv::Point(current_blob.currentBoundingRect.x + list_x_labels[j]+ list_w_labels[j],current_blob.currentBoundingRect.y+ list_h_labels[j]),
+                      SCALAR_GREEN, 2);
+      }
+
+      //just one object in blob we consider that blob as object
+      if (total_object_in_blob == 1) {
+        blobs[i].current_blob_single_name = names[list_best_labels[0]];
+      }
+
+      //free image crop
+      free_image(crop_image);
+      free_image(sized);
     }
 
-    //leftway draw line
-    if (blnAtLeastOneBlobCrossedTheLineLeft == true) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_WHITE, 2);
-    }
-    else if (blnAtLeastOneBlobCrossedTheLineLeft == false) {
-      cv::line(imgFrame2Copy, crossingLineLeft[0], crossingLineLeft[1], SCALAR_YELLOW, 2);
-    }
-
-    //DONE: convert cv::Mat frame crop to image
-    image crop_image = crop_blob(imgFrame2Copy, blobs.back().currentBoundingRect);
-    image sized = resize_image(crop_image, net.w, net.h);
-
-    // last layer in config file
-    // l.classes = 5 total classes in layer;
-    layer l = net.layers[net.n-1];
-
-    float nms=.45;	// 0.4F
-
-    float *X = sized.data;
-
-    int nboxes = 0;
-
-
-    // draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
-
-    cout << "---------------------------------------------------" << endl;
-    network_predict(net, X);
-
-    //get result number nboxes: number of box in dets return
-    detection *dets = get_network_boxes(&net, crop_image.w, crop_image.h, .7, hier_thresh, 0, 1, &nboxes, letterbox);
-    if (nms) do_nms_sort(dets, nboxes, l.classes, nms);
-
-    // draw names on image: motobike bicycle
-    // int ext_output; print %s rectangle
-
-    /* detection_with_class* get_actual_detections(detection *dets, int dets_num, float thresh, int* selected_detections_num) */
-    // DONE  : get dets info b 477 if nboxes > 0
-    draw_detections_v3(crop_image, dets, nboxes, thresh, names, alphabet, l.classes, 1 /* ext_output*/);
-
-    // DONE : draw darknet into blob detection
-    draw_image_to_cvMat(crop_image, imgFrame2Copy, blobs.back().currentBoundingRect.x,blobs.back().currentBoundingRect.y);
-    show_image(crop_image, "predictions");
-
-    // draw red rectangle on imgFrame2Copy
     drawBlobInfoOnImage(blobs, imgFrame2Copy);
 
-    drawCarCountOnImage(carCountRight, imgFrame2Copy);
 
     cv::imshow("imgFrame2Copy", imgFrame2Copy);
 
@@ -507,10 +526,6 @@ int main(int argc, char *argv[]) {
     blnFirstFrame = false;
     frameCount++;
     chCheckForEscKey = cv::waitKey(1);
-
-    //free image crop
-    free_image(crop_image);
-    free_image(sized);
   }
 
   if (chCheckForEscKey != 27 && chCheckForEscKey != 'q') {

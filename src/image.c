@@ -275,6 +275,29 @@ int compare_by_probs(const void *a_ptr, const void *b_ptr) {
   return delta < 0 ? -1 : delta > 0 ? 1 : 0;
 }
 
+void get_label_object(int image_w,int image_h, int *list_best_labels,int *list_x_labels, int *list_y_labels,int *list_w_labels, int *list_h_labels, int * total_object_in_blob,  detection *dets, int num, float thresh, char **names)
+{
+  int selected_detections_num;
+
+  detection_with_class* selected_detections = get_actual_detections(dets, num, thresh, &selected_detections_num);
+
+  // text output
+  qsort(selected_detections, selected_detections_num, sizeof(*selected_detections), compare_by_lefts);
+  int i;
+  *total_object_in_blob = selected_detections_num;
+  for (i = 0; i < selected_detections_num; ++i) {
+    const int best_class = selected_detections[i].best_class;
+    printf("%s: %.0f%%", names[best_class],	selected_detections[i].det.prob[best_class] * 100);
+    list_best_labels[i] = best_class;
+    list_x_labels[i] = (selected_detections[i].det.bbox.x - selected_detections[i].det.bbox.w / 2)*image_w;
+    list_y_labels[i] = (selected_detections[i].det.bbox.y - selected_detections[i].det.bbox.h / 2)*image_h;
+    list_w_labels[i] = selected_detections[i].det.bbox.w*image_w ;
+    list_h_labels[i] = selected_detections[i].det.bbox.h*image_h;
+
+  }
+
+}
+
 void draw_detections_v3(image im, detection *dets, int num, float thresh, char **names, image **alphabet, int classes, int ext_output)
 {
   int selected_detections_num;
@@ -287,6 +310,7 @@ void draw_detections_v3(image im, detection *dets, int num, float thresh, char *
   for (i = 0; i < selected_detections_num; ++i) {
     const int best_class = selected_detections[i].best_class;
     printf("%s: %.0f%%", names[best_class],	selected_detections[i].det.prob[best_class] * 100);
+
     if (ext_output)
       printf("\t(left_x: %4.0f   top_y: %4.0f   width: %4.0f   height: %4.0f)\n",
         (selected_detections[i].det.bbox.x - selected_detections[i].det.bbox.w / 2)*im.w,

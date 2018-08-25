@@ -14,6 +14,8 @@ class Blob {
 		bool blnCurrentMatchFoundOrNewBlob;
 		bool blnStillBeingTracked;
 		int intNumOfConsecutiveFramesWithoutAMatch;
+    // TODO just one object in blob???
+    char * current_blob_single_name;
 		cv::Point predictedNextPosition;
 
 		// function prototypes
